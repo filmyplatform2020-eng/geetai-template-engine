@@ -1,11 +1,15 @@
-import { theme } from "@/engine/theme"
-
 export function glassClasses(className = "") {
   return [
-    "backdrop-blur-xl",
-    `border border-[${theme.glass.border}]`,
-    `bg-[${theme.glass.background}]`,
-    `shadow-[${theme.glass.shadow}]`,
+    "glass",
+    className,
+  ]
+    .filter(Boolean)
+    .join(" ")
+}
+
+export function glassGradient(className = "") {
+  return [
+    "glass-gradient",
     className,
   ]
     .filter(Boolean)
@@ -15,7 +19,7 @@ export function glassClasses(className = "") {
 export function gradientText(className = "") {
   return [
     "bg-clip-text text-transparent",
-    `bg-[${theme.colors["gradient-primary"]}]`,
+    "bg-gradient-to-r from-[var(--color-accent)] to-[var(--color-accent-light)]",
     className,
   ]
     .filter(Boolean)

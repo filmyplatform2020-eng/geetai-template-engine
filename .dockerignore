@@ -1,0 +1,16 @@
+node_modules
+.git
+.github
+.next
+.playwright-mcp
+test-results
+e2e
+*.md
+.DS_Store
+.env
+.env.local
+.env.production
+.gitignore
+.dockerignore
+cruip-clone
+scripts

@@ -1,0 +1,20 @@
+{
+  "admin": {
+    "password": "31d09621c6d4a008df06bd0820cb8b9aaa3b6e078cbd31e8a9640ceeb9dd0a613c233db1c45be5dbddfd31594f7ad23201fe3ccc52793c81f4374ff449eff808",
+    "salt": "f62bc60f44fce28f14cd6ab74f5d78d7",
+    "role": "admin",
+    "name": "Admin User"
+  },
+  "editor": {
+    "password": "df468e752779d141c47ae4f74a270df002dec9c13cec615c25a769bc5b24c16a109b8cb6bb7d9b2938c696146e69e0c6a87513a2cbe948d8b8c9c900e3490086",
+    "salt": "d90789dfe3d5d68afc55b1545496aebd",
+    "role": "editor",
+    "name": "Editor User"
+  },
+  "reviewer": {
+    "password": "b8a08735b6b081a79a65a412b1ad06183106e7ff827e1e03c0be1bf7854fc223999c52294910defc544f876a56ca029de5eaf2a5f09218620ba07f29e9dad2a9",
+    "salt": "ae30bad073ee73d9a8f70ae7185c09d1",
+    "role": "reviewer",
+    "name": "Reviewer User"
+  }
+}

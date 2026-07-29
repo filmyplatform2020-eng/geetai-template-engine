@@ -18,7 +18,7 @@ export default function LocaleSwitcher({ current = "us", onChange, className }: 
     <div className={cn("relative", className)}>
       <button
         onClick={() => setOpen(!open)}
-        className="flex items-center gap-1.5 rounded-lg border border-white/10 px-3 py-1.5 text-xs text-white/50 transition-colors hover:border-white/20 hover:text-white/70"
+        className="flex items-center gap-1.5 rounded-lg border border-default px-3 py-1.5 text-xs text-secondary transition-colors hover:border-strong hover:text-primary"
       >
         <Globe className="h-3.5 w-3.5" />
         <span className="uppercase">{current}</span>
@@ -27,7 +27,7 @@ export default function LocaleSwitcher({ current = "us", onChange, className }: 
       {open && (
         <>
           <div className="fixed inset-0 z-40" onClick={() => setOpen(false)} />
-          <div className="absolute right-0 top-full z-50 mt-1 w-44 rounded-xl border border-white/10 bg-[#0a0a12] p-1 shadow-2xl">
+          <div className="absolute right-0 top-full z-50 mt-1 w-44 rounded-xl border border-default bg-background p-1 shadow-2xl">
             {Object.entries(regions).map(([code, region]) => (
               <button
                 key={code}
@@ -38,12 +38,12 @@ export default function LocaleSwitcher({ current = "us", onChange, className }: 
                 className={cn(
                   "flex w-full items-center justify-between rounded-lg px-3 py-2 text-left text-xs transition-colors",
                   code === current
-                    ? "bg-white/10 text-white"
-                    : "text-white/40 hover:bg-white/5 hover:text-white/70"
+                    ? "bg-surface text-primary"
+                    : "text-secondary hover:bg-surface hover:text-primary"
                 )}
               >
                 <span>{localeLabels[region.locale] ?? region.country}</span>
-                <span className="text-white/20">{region.currencySymbol}</span>
+                <span className="text-muted">{region.currencySymbol}</span>
               </button>
             ))}
           </div>

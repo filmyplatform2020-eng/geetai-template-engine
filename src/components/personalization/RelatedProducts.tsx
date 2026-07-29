@@ -26,14 +26,14 @@ export default function RelatedProducts({ product, allProducts }: RelatedProduct
           <Link key={p.slug} href={`/review/${p.slug}`}>
             <Card className="flex h-full flex-col p-5">
               <div className="mb-3 flex items-center justify-between">
-                <span className="text-xs text-white/30">{p.brand}</span>
+                <span className="text-xs text-muted">{p.brand}</span>
                 <Badge variant="primary" size="sm">
                   {p.currency}{p.price.toLocaleString()}
                 </Badge>
               </div>
-              <p className="mb-2 text-sm font-medium text-white/80">{p.product}</p>
+              <p className="mb-2 text-sm font-medium text-primary">{p.product}</p>
               <Rating value={p.rating} count={p.reviewCount} size="sm" />
-              <div className="mt-auto flex items-center gap-1 pt-3 text-xs text-white/30">
+              <div className="mt-auto flex items-center gap-1 pt-3 text-xs text-muted">
                 Read Review <ArrowRight className="h-3 w-3" />
               </div>
             </Card>

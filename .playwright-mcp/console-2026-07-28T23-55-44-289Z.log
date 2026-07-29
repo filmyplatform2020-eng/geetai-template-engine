@@ -1,0 +1,173 @@
+[     195ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[     209ms] [LOG] [HMR] connected @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[     306ms] [WARNING] Image with src "/images/macbook-pro-front.jpg" is using quality "85" which is not configured in images.qualities [75]. Please update your config to [75, 85].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[     308ms] [WARNING] Image with src "/images/macbook-pro-angle.jpg" is using quality "85" which is not configured in images.qualities [75]. Please update your config to [75, 85].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[     309ms] [WARNING] Image with src "/images/macbook-pro-side.jpg" is using quality "85" which is not configured in images.qualities [75]. Please update your config to [75, 85].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[     310ms] [WARNING] Image with src "/images/macbook-pro-display.jpg" is using quality "85" which is not configured in images.qualities [75]. Please update your config to [75, 85].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[     392ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[     658ms] [LOG] [Fast Refresh] done in 366ms @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[  382321ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[  382933ms] [LOG] [Fast Refresh] done in 695ms @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[  383055ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[  383201ms] [LOG] [Fast Refresh] done in 247ms @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[  383607ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[  383619ms] [LOG] [Fast Refresh] done in 113ms @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[  383702ms] [ERROR] %o
+
+%s Error: Invalid src prop (https://www.youtube.com/watch?v=example) on `next/image`, hostname "www.youtube.com" is not configured under images in your `next.config.js`
+See more info: https://nextjs.org/docs/messages/next-image-unconfigured-host
+    at defaultLoader (http://localhost:3001/_next/static/chunks/0lc__19n-4aa._.js:4379:49)
+    at http://localhost:3001/_next/static/chunks/0lc__19n-4aa._.js:1803:39
+    at Array.map (<anonymous>)
+    at generateImgAttrs (http://localhost:3001/_next/static/chunks/0lc__19n-4aa._.js:1803:24)
+    at getImgProps (http://localhost:3001/_next/static/chunks/0lc__19n-4aa._.js:2216:27)
+    at http://localhost:3001/_next/static/chunks/0lc__19n-4aa._.js:4708:82
+    at Object.react_stack_bottom_frame (http://localhost:3001/_next/static/chunks/0lc__next_dist_compiled_react-dom_1bzleny._.js:15037:24)
+    at renderWithHooks (http://localhost:3001/_next/static/chunks/0lc__next_dist_compiled_react-dom_1bzleny._.js:4620:24)
+    at updateForwardRef (http://localhost:3001/_next/static/chunks/0lc__next_dist_compiled_react-dom_1bzleny._.js:5908:21)
+    at beginWork (http://localhost:3001/_next/static/chunks/0lc__next_dist_compiled_react-dom_1bzleny._.js:6766:24)
+    at runWithFiberInDEV (http://localhost:3001/_next/static/chunks/0lc__next_dist_compiled_react-dom_1bzleny._.js:965:74)
+    at performUnitOfWork (http://localhost:3001/_next/static/chunks/0lc__next_dist_compiled_react-dom_1bzleny._.js:9555:97)
+    at workLoopSync (http://localhost:3001/_next/static/chunks/0lc__next_dist_compiled_react-dom_1bzleny._.js:9449:40)
+    at renderRootSync (http://localhost:3001/_next/static/chunks/0lc__next_dist_compiled_react-dom_1bzleny._.js:9433:13)
+    at performWorkOnRoot (http://localhost:3001/_next/static/chunks/0lc__next_dist_compiled_react-dom_1bzleny._.js:9061:186)
+    at performSyncWorkOnRoot (http://localhost:3001/_next/static/chunks/0lc__next_dist_compiled_react-dom_1bzleny._.js:10263:9)
+    at flushSyncWorkAcrossRoots_impl (http://localhost:3001/_next/static/chunks/0lc__next_dist_compiled_react-dom_1bzleny._.js:10179:316)
+    at processRootScheduleInMicrotask (http://localhost:3001/_next/static/chunks/0lc__next_dist_compiled_react-dom_1bzleny._.js:10200:106)
+    at http://localhost:3001/_next/static/chunks/0lc__next_dist_compiled_react-dom_1bzleny._.js:10274:158 The above error occurred in the <Unknown> component. It was handled by the <ErrorBoundaryHandler> error boundary. @ http://localhost:3001/_next/static/chunks/0lc__next_dist_client_1mhgna2._.js:1998
+[  383951ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[  383994ms] [LOG] [Fast Refresh] done in 143ms @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[  391191ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[  391244ms] [LOG] [Fast Refresh] done in 73ms @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[  402232ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[  402305ms] [ERROR] %o
+
+%s Error: Invalid src prop (https://www.youtube.com/watch?v=example) on `next/image`, hostname "www.youtube.com" is not configured under images in your `next.config.js`
+See more info: https://nextjs.org/docs/messages/next-image-unconfigured-host
+    at defaultLoader (http://localhost:3001/_next/static/chunks/0lc__19n-4aa._.js:4379:49)
+    at http://localhost:3001/_next/static/chunks/0lc__19n-4aa._.js:1803:39
+    at Array.map (<anonymous>)
+    at generateImgAttrs (http://localhost:3001/_next/static/chunks/0lc__19n-4aa._.js:1803:24)
+    at getImgProps (http://localhost:3001/_next/static/chunks/0lc__19n-4aa._.js:2216:27)
+    at http://localhost:3001/_next/static/chunks/0lc__19n-4aa._.js:4708:82
+    at Object.react_stack_bottom_frame (http://localhost:3001/_next/static/chunks/0lc__next_dist_compiled_react-dom_1bzleny._.js:15037:24)
+    at renderWithHooks (http://localhost:3001/_next/static/chunks/0lc__next_dist_compiled_react-dom_1bzleny._.js:4620:24)
+    at updateForwardRef (http://localhost:3001/_next/static/chunks/0lc__next_dist_compiled_react-dom_1bzleny._.js:5908:21)
+    at beginWork (http://localhost:3001/_next/static/chunks/0lc__next_dist_compiled_react-dom_1bzleny._.js:6766:24)
+    at runWithFiberInDEV (http://localhost:3001/_next/static/chunks/0lc__next_dist_compiled_react-dom_1bzleny._.js:965:74)
+    at performUnitOfWork (http://localhost:3001/_next/static/chunks/0lc__next_dist_compiled_react-dom_1bzleny._.js:9555:97)
+    at workLoopSync (http://localhost:3001/_next/static/chunks/0lc__next_dist_compiled_react-dom_1bzleny._.js:9449:40)
+    at renderRootSync (http://localhost:3001/_next/static/chunks/0lc__next_dist_compiled_react-dom_1bzleny._.js:9433:13)
+    at performWorkOnRoot (http://localhost:3001/_next/static/chunks/0lc__next_dist_compiled_react-dom_1bzleny._.js:9098:47)
+    at performSyncWorkOnRoot (http://localhost:3001/_next/static/chunks/0lc__next_dist_compiled_react-dom_1bzleny._.js:10263:9)
+    at flushSyncWorkAcrossRoots_impl (http://localhost:3001/_next/static/chunks/0lc__next_dist_compiled_react-dom_1bzleny._.js:10179:316)
+    at flushSyncWork$1 (http://localhost:3001/_next/static/chunks/0lc__next_dist_compiled_react-dom_1bzleny._.js:9230:86)
+    at Object.scheduleRefresh (http://localhost:3001/_next/static/chunks/0lc__next_dist_compiled_react-dom_1bzleny._.js:299:13)
+    at http://localhost:3001/_next/static/chunks/0lc__next_dist_compiled_0o4l6-o._.js:391:33
+    at Set.forEach (<anonymous>)
+    at Object.performReactRefresh (http://localhost:3001/_next/static/chunks/0lc__next_dist_compiled_0o4l6-o._.js:384:38)
+    at applyUpdate (http://localhost:3001/_next/static/chunks/0lc__next_dist_compiled_0o4l6-o._.js:878:31)
+    at http://localhost:3001/_next/static/chunks/0lc__next_dist_compiled_0o4l6-o._.js:886:13 The above error occurred in the <Unknown> component. It was handled by the <ErrorBoundaryHandler> error boundary. @ http://localhost:3001/_next/static/chunks/0lc__next_dist_client_1mhgna2._.js:1998
+[  402318ms] [LOG] [Fast Refresh] done in 182ms @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[  410117ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[  410135ms] [ERROR] %o
+
+%s Error: Invalid src prop (https://www.youtube.com/watch?v=example) on `next/image`, hostname "www.youtube.com" is not configured under images in your `next.config.js`
+See more info: https://nextjs.org/docs/messages/next-image-unconfigured-host
+    at defaultLoader (http://localhost:3001/_next/static/chunks/0lc__19n-4aa._.js:4379:49)
+    at http://localhost:3001/_next/static/chunks/0lc__19n-4aa._.js:1803:39
+    at Array.map (<anonymous>)
+    at generateImgAttrs (http://localhost:3001/_next/static/chunks/0lc__19n-4aa._.js:1803:24)
+    at getImgProps (http://localhost:3001/_next/static/chunks/0lc__19n-4aa._.js:2216:27)
+    at http://localhost:3001/_next/static/chunks/0lc__19n-4aa._.js:4708:82
+    at Object.react_stack_bottom_frame (http://localhost:3001/_next/static/chunks/0lc__next_dist_compiled_react-dom_1bzleny._.js:15037:24)
+    at renderWithHooks (http://localhost:3001/_next/static/chunks/0lc__next_dist_compiled_react-dom_1bzleny._.js:4620:24)
+    at updateForwardRef (http://localhost:3001/_next/static/chunks/0lc__next_dist_compiled_react-dom_1bzleny._.js:5908:21)
+    at beginWork (http://localhost:3001/_next/static/chunks/0lc__next_dist_compiled_react-dom_1bzleny._.js:6766:24)
+    at runWithFiberInDEV (http://localhost:3001/_next/static/chunks/0lc__next_dist_compiled_react-dom_1bzleny._.js:965:74)
+    at performUnitOfWork (http://localhost:3001/_next/static/chunks/0lc__next_dist_compiled_react-dom_1bzleny._.js:9555:97)
+    at workLoopSync (http://localhost:3001/_next/static/chunks/0lc__next_dist_compiled_react-dom_1bzleny._.js:9449:40)
+    at renderRootSync (http://localhost:3001/_next/static/chunks/0lc__next_dist_compiled_react-dom_1bzleny._.js:9433:13)
+    at performWorkOnRoot (http://localhost:3001/_next/static/chunks/0lc__next_dist_compiled_react-dom_1bzleny._.js:9098:47)
+    at performSyncWorkOnRoot (http://localhost:3001/_next/static/chunks/0lc__next_dist_compiled_react-dom_1bzleny._.js:10263:9)
+    at flushSyncWorkAcrossRoots_impl (http://localhost:3001/_next/static/chunks/0lc__next_dist_compiled_react-dom_1bzleny._.js:10179:316)
+    at flushSyncWork$1 (http://localhost:3001/_next/static/chunks/0lc__next_dist_compiled_react-dom_1bzleny._.js:9230:86)
+    at Object.scheduleRefresh (http://localhost:3001/_next/static/chunks/0lc__next_dist_compiled_react-dom_1bzleny._.js:299:13)
+    at http://localhost:3001/_next/static/chunks/0lc__next_dist_compiled_0o4l6-o._.js:391:33
+    at Set.forEach (<anonymous>)
+    at Object.performReactRefresh (http://localhost:3001/_next/static/chunks/0lc__next_dist_compiled_0o4l6-o._.js:384:38)
+    at applyUpdate (http://localhost:3001/_next/static/chunks/0lc__next_dist_compiled_0o4l6-o._.js:878:31)
+    at http://localhost:3001/_next/static/chunks/0lc__next_dist_compiled_0o4l6-o._.js:886:13 The above error occurred in the <Unknown> component. It was handled by the <ErrorBoundaryHandler> error boundary. @ http://localhost:3001/_next/static/chunks/0lc__next_dist_client_1mhgna2._.js:1998
+[  410137ms] [LOG] [Fast Refresh] done in 87ms @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[  418141ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[  418159ms] [ERROR] %o
+
+%s Error: Invalid src prop (https://www.youtube.com/watch?v=example) on `next/image`, hostname "www.youtube.com" is not configured under images in your `next.config.js`
+See more info: https://nextjs.org/docs/messages/next-image-unconfigured-host
+    at defaultLoader (http://localhost:3001/_next/static/chunks/0lc__19n-4aa._.js:4379:49)
+    at http://localhost:3001/_next/static/chunks/0lc__19n-4aa._.js:1803:39
+    at Array.map (<anonymous>)
+    at generateImgAttrs (http://localhost:3001/_next/static/chunks/0lc__19n-4aa._.js:1803:24)
+    at getImgProps (http://localhost:3001/_next/static/chunks/0lc__19n-4aa._.js:2216:27)
+    at http://localhost:3001/_next/static/chunks/0lc__19n-4aa._.js:4708:82
+    at Object.react_stack_bottom_frame (http://localhost:3001/_next/static/chunks/0lc__next_dist_compiled_react-dom_1bzleny._.js:15037:24)
+    at renderWithHooks (http://localhost:3001/_next/static/chunks/0lc__next_dist_compiled_react-dom_1bzleny._.js:4620:24)
+    at updateForwardRef (http://localhost:3001/_next/static/chunks/0lc__next_dist_compiled_react-dom_1bzleny._.js:5908:21)
+    at beginWork (http://localhost:3001/_next/static/chunks/0lc__next_dist_compiled_react-dom_1bzleny._.js:6766:24)
+    at runWithFiberInDEV (http://localhost:3001/_next/static/chunks/0lc__next_dist_compiled_react-dom_1bzleny._.js:965:74)
+    at performUnitOfWork (http://localhost:3001/_next/static/chunks/0lc__next_dist_compiled_react-dom_1bzleny._.js:9555:97)
+    at workLoopSync (http://localhost:3001/_next/static/chunks/0lc__next_dist_compiled_react-dom_1bzleny._.js:9449:40)
+    at renderRootSync (http://localhost:3001/_next/static/chunks/0lc__next_dist_compiled_react-dom_1bzleny._.js:9433:13)
+    at performWorkOnRoot (http://localhost:3001/_next/static/chunks/0lc__next_dist_compiled_react-dom_1bzleny._.js:9098:47)
+    at performSyncWorkOnRoot (http://localhost:3001/_next/static/chunks/0lc__next_dist_compiled_react-dom_1bzleny._.js:10263:9)
+    at flushSyncWorkAcrossRoots_impl (http://localhost:3001/_next/static/chunks/0lc__next_dist_compiled_react-dom_1bzleny._.js:10179:316)
+    at flushSyncWork$1 (http://localhost:3001/_next/static/chunks/0lc__next_dist_compiled_react-dom_1bzleny._.js:9230:86)
+    at Object.scheduleRefresh (http://localhost:3001/_next/static/chunks/0lc__next_dist_compiled_react-dom_1bzleny._.js:299:13)
+    at http://localhost:3001/_next/static/chunks/0lc__next_dist_compiled_0o4l6-o._.js:391:33
+    at Set.forEach (<anonymous>)
+    at Object.performReactRefresh (http://localhost:3001/_next/static/chunks/0lc__next_dist_compiled_0o4l6-o._.js:384:38)
+    at applyUpdate (http://localhost:3001/_next/static/chunks/0lc__next_dist_compiled_0o4l6-o._.js:878:31)
+    at http://localhost:3001/_next/static/chunks/0lc__next_dist_compiled_0o4l6-o._.js:886:13 The above error occurred in the <Unknown> component. It was handled by the <ErrorBoundaryHandler> error boundary. @ http://localhost:3001/_next/static/chunks/0lc__next_dist_client_1mhgna2._.js:1998
+[  418161ms] [LOG] [Fast Refresh] done in 99ms @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[  436208ms] [ERROR] WebSocket connection to 'ws://localhost:3001/_next/webpack-hmr?id=v4qfUplHdHPcRYAJLIcoZ' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3001/_next/static/chunks/0lc__next_dist_client_1mhgna2._.js:13422
+[  437397ms] [LOG] [HMR] connected @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[  438120ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3001/preview:0
+[  438146ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[  438159ms] [LOG] [HMR] connected @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[  438207ms] [ERROR] %o
+
+%s Error: Invalid src prop (https://www.youtube.com/watch?v=example) on `next/image`, hostname "www.youtube.com" is not configured under images in your `next.config.js`
+See more info: https://nextjs.org/docs/messages/next-image-unconfigured-host
+    at defaultLoader (http://localhost:3001/_next/static/chunks/0lc__15-uy1m._.js:4012:49)
+    at http://localhost:3001/_next/static/chunks/0lc__15-uy1m._.js:1436:39
+    at Array.map (<anonymous>)
+    at generateImgAttrs (http://localhost:3001/_next/static/chunks/0lc__15-uy1m._.js:1436:24)
+    at getImgProps (http://localhost:3001/_next/static/chunks/0lc__15-uy1m._.js:1849:27)
+    at http://localhost:3001/_next/static/chunks/0lc__15-uy1m._.js:4341:82
+    at Object.react_stack_bottom_frame (http://localhost:3001/_next/static/chunks/0lc__next_dist_compiled_react-dom_1bzleny._.js:15037:24)
+    at renderWithHooks (http://localhost:3001/_next/static/chunks/0lc__next_dist_compiled_react-dom_1bzleny._.js:4620:24)
+    at updateForwardRef (http://localhost:3001/_next/static/chunks/0lc__next_dist_compiled_react-dom_1bzleny._.js:5908:21)
+    at beginWork (http://localhost:3001/_next/static/chunks/0lc__next_dist_compiled_react-dom_1bzleny._.js:6766:24)
+    at runWithFiberInDEV (http://localhost:3001/_next/static/chunks/0lc__next_dist_compiled_react-dom_1bzleny._.js:965:74)
+    at performUnitOfWork (http://localhost:3001/_next/static/chunks/0lc__next_dist_compiled_react-dom_1bzleny._.js:9555:97)
+    at workLoopSync (http://localhost:3001/_next/static/chunks/0lc__next_dist_compiled_react-dom_1bzleny._.js:9449:40)
+    at renderRootSync (http://localhost:3001/_next/static/chunks/0lc__next_dist_compiled_react-dom_1bzleny._.js:9433:13)
+    at performWorkOnRoot (http://localhost:3001/_next/static/chunks/0lc__next_dist_compiled_react-dom_1bzleny._.js:9098:47)
+    at performWorkOnRootViaSchedulerTask (http://localhost:3001/_next/static/chunks/0lc__next_dist_compiled_react-dom_1bzleny._.js:10255:9)
+    at MessagePort.performWorkUntilDeadline (http://localhost:3001/_next/static/chunks/0lc__next_dist_compiled_0o4l6-o._.js:2647:64) The above error occurred in the <Unknown> component. It was handled by the <ErrorBoundaryHandler> error boundary. @ http://localhost:3001/_next/static/chunks/0lc__next_dist_client_1mhgna2._.js:1998
+[  438397ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[  438782ms] [LOG] [Fast Refresh] done in 485ms @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[  439613ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[  440120ms] [LOG] [Fast Refresh] done in 609ms @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[  440737ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[  441150ms] [LOG] [Fast Refresh] done in 514ms @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[  441343ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[  441762ms] [LOG] [Fast Refresh] done in 520ms @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[  466894ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[  466949ms] [LOG] [Fast Refresh] done in 125ms @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[  471739ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[  471741ms] [LOG] [Fast Refresh] done in 103ms @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489

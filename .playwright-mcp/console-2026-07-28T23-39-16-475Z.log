@@ -1,0 +1,38 @@
+[     204ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[     215ms] [LOG] [HMR] connected @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[     299ms] [WARNING] Image with src "/images/macbook-pro-front.jpg" is using quality "85" which is not configured in images.qualities [75]. Please update your config to [75, 85].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[     301ms] [WARNING] Image with src "/images/macbook-pro-angle.jpg" is using quality "85" which is not configured in images.qualities [75]. Please update your config to [75, 85].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[     301ms] [WARNING] Image with src "/images/macbook-pro-side.jpg" is using quality "85" which is not configured in images.qualities [75]. Please update your config to [75, 85].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[     302ms] [WARNING] Image with src "/images/macbook-pro-display.jpg" is using quality "85" which is not configured in images.qualities [75]. Please update your config to [75, 85].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[     384ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[     592ms] [LOG] [Fast Refresh] done in 308ms @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[   54688ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[   54689ms] [LOG] [Fast Refresh] done in 102ms @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[  702109ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[  702362ms] [LOG] [Fast Refresh] done in 301ms @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[  710451ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[  710578ms] [LOG] [Fast Refresh] done in 188ms @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[  711107ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[  711116ms] [LOG] [Fast Refresh] done in 125ms @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[  715862ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[  715932ms] [LOG] [Fast Refresh] done in 77ms @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[  726620ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[  726701ms] [LOG] [Fast Refresh] done in 59ms @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[  742970ms] [ERROR] WebSocket connection to 'ws://localhost:3001/_next/webpack-hmr?id=n0Iyky0kfwfKVwfTpmqnF' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3001/_next/static/chunks/0lc__next_dist_client_1mhgna2._.js:13422
+[  744078ms] [LOG] [HMR] connected @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[  744613ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[  744625ms] [LOG] [HMR] connected @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[  744678ms] [WARNING] Image with src "/images/macbook-pro-front.jpg" is using quality "85" which is not configured in images.qualities [75]. Please update your config to [75, 85].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[  744680ms] [WARNING] Image with src "/images/macbook-pro-angle.jpg" is using quality "85" which is not configured in images.qualities [75]. Please update your config to [75, 85].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[  744680ms] [WARNING] Image with src "/images/macbook-pro-side.jpg" is using quality "85" which is not configured in images.qualities [75]. Please update your config to [75, 85].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[  744681ms] [WARNING] Image with src "/images/macbook-pro-display.jpg" is using quality "85" which is not configured in images.qualities [75]. Please update your config to [75, 85].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[  746296ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[  746361ms] [LOG] [Fast Refresh] done in 167ms @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489

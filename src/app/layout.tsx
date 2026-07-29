@@ -34,7 +34,7 @@ export default function RootLayout({
 
   return (
     <html lang="en" className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}>
-      <body className="min-h-full bg-hero-bg font-sans text-white selection:bg-[#6c5ce7]/30">
+      <body className="min-h-full font-sans text-[var(--text-primary)] antialiased">
         <ThemeProvider>
           <LenisProvider>
             <SearchProvider products={products}>

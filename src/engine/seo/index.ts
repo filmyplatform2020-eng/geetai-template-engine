@@ -22,7 +22,8 @@ export function generateSEO(product: Product, baseUrl = "https://geetai.com"): S
   const description = product.seo?.description ?? product.description.slice(0, 155)
   const keywords = (product.seo?.keywords ?? [product.product, product.brand, "review"]).join(", ")
   const url = `${baseUrl}/review/${slug}`
-  const image = product.images[0]?.src ?? `${baseUrl}/og-default.jpg`
+  const rawImage = product.images[0]?.src
+  const image = rawImage && !rawImage.includes("placeholder") ? `${baseUrl}${rawImage}` : `${baseUrl}/og-default.jpg`
 
   return {
     title,

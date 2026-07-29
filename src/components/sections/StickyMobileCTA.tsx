@@ -1,47 +1,49 @@
 "use client"
 
-import { ShoppingCart } from "lucide-react"
+import { motion } from "framer-motion"
+import { ShoppingCart, ArrowRight } from "lucide-react"
 import { cn } from "@/lib/utils"
 import type { BuyLink } from "@/engine/product/types"
 
 interface StickyMobileCTAProps {
+  productName: string
   buyLinks: BuyLink[]
-  price: number
-  currency: string
 }
 
 export default function StickyMobileCTA({
+  productName,
   buyLinks,
-  price,
-  currency,
 }: StickyMobileCTAProps) {
-  const best = buyLinks.find((l) => l.available) ?? buyLinks[0]
+  if (!buyLinks.length) return null
+
+  const bestDeal = buyLinks.reduce((best, link) =>
+    link.price < best.price ? link : best
+  )
 
   return (
-    <div
-      className={cn(
-        "fixed bottom-0 left-0 right-0 z-40 border-t border-white/[0.06] bg-[#06060e]/95 backdrop-blur-xl",
-        "lg:hidden"
-      )}
+    <motion.div
+      initial={{ y: 100 }}
+      animate={{ y: 0 }}
+      className="fixed inset-x-0 bottom-0 z-50 border-t border-default bg-background/90 backdrop-blur-xl md:hidden"
     >
       <div className="flex items-center justify-between px-4 py-3">
         <div>
-          <p className="text-xs text-white/40">Starting from</p>
-          <p className="text-lg font-bold text-white">
-            {currency}
-            {price.toLocaleString()}
-          </p>
+          <div className="text-xs text-secondary">{productName}</div>
+          <div className="text-base font-bold text-primary">
+            {bestDeal.currency === "USD" ? "$" : bestDeal.currency}
+            {bestDeal.price.toLocaleString()}
+          </div>
         </div>
         <a
-          href={best.url}
+          href={bestDeal.url}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex h-11 items-center gap-2 rounded-full bg-gradient-to-r from-[#6c5ce7] to-[#a29bfe] px-5 text-sm font-medium text-white shadow-lg shadow-[#6c5ce7]/25"
+          className="inline-flex items-center gap-2 rounded-xl bg-white px-5 py-2.5 text-sm font-semibold text-[#06060e] transition-all duration-300 hover:bg-white/95 hover:shadow-lg hover:shadow-white/10 active:scale-[0.97]"
         >
           <ShoppingCart className="h-4 w-4" />
           Buy Now
         </a>
       </div>
-    </div>
+    </motion.div>
   )
 }

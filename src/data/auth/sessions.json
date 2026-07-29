@@ -1,0 +1,26 @@
+{
+  "0757cc1d-1337-4a78-8897-d3da739f7111": {
+    "userId": "admin",
+    "role": "admin",
+    "name": "Admin User",
+    "createdAt": 1785215292796
+  },
+  "bc9382e5-54dd-4d01-9fa2-0edffd9f9125": {
+    "userId": "admin",
+    "role": "admin",
+    "name": "Admin User",
+    "createdAt": 1785215299165
+  },
+  "d3e31929-7290-4f44-b07d-c74157d7a202": {
+    "userId": "admin",
+    "role": "admin",
+    "name": "Admin User",
+    "createdAt": 1785215327535
+  },
+  "1378147a-ad6a-4342-8b39-01c82608493a": {
+    "userId": "admin",
+    "role": "admin",
+    "name": "Admin User",
+    "createdAt": 1785215346258
+  }
+}

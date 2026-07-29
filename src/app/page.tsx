@@ -10,7 +10,7 @@ export default function Home() {
     <>
       <Hero />
       <div className="relative z-10">
-        <TrustBar />
+        <TrustBar productName="Premium Tech" />
         <HomeCatalog products={products} />
       </div>
     </>

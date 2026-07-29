@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e8f8f0"/>
+      <stop offset="100%" style="stop-color:#05966920"/>
+    </linearGradient>
+    <linearGradient id="shimmer" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#059669;stop-opacity:0.08"/>
+      <stop offset="50%" style="stop-color:#059669;stop-opacity:0.15"/>
+      <stop offset="100%" style="stop-color:#059669;stop-opacity:0.08"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)" rx="16"/>
+  <rect x="100" y="100" width="1000" height="600" fill="url(#shimmer)" rx="24"/>
+  <rect x="100" y="100" width="1000" height="600" fill="none" stroke="#05966930" stroke-width="1" rx="24"/>
+  <text x="600" y="380" text-anchor="middle" font-family="-apple-system, system-ui, sans-serif" font-size="28" font-weight="600" fill="#ffffff">Dji Air 4</text>
+  <text x="600" y="420" text-anchor="middle" font-family="-apple-system, system-ui, sans-serif" font-size="16" fill="#ffffff90">side view</text>
+  <rect x="560" y="460" width="80" height="2" rx="1" fill="#05966950"/>
+</svg>

@@ -1,0 +1,640 @@
+- generic [ref=f15e1]:
+  - generic [ref=f15e2]:
+    - banner [ref=f15e3]:
+      - generic [ref=f15e4]:
+        - link "GeetAI" [ref=f15e5] [cursor=pointer]:
+          - /url: /
+        - navigation [ref=f15e8]:
+          - link "Reviews" [ref=f15e9] [cursor=pointer]:
+            - /url: /
+          - link "Guides" [ref=f15e10] [cursor=pointer]:
+            - /url: /
+          - link "Compare" [ref=f15e11] [cursor=pointer]:
+            - /url: /
+          - link "Categories" [ref=f15e12] [cursor=pointer]:
+            - /url: /
+        - button "Search... ⌘K" [ref=f15e14]:
+          - generic [ref=f15e18]: Search...
+          - generic [ref=f15e19]: ⌘K
+    - main [ref=f15e20]:
+      - generic [ref=f15e21]:
+        - navigation [ref=f15e22]:
+          - generic [ref=f15e23]:
+            - button "Blush Rose" [ref=f15e24]
+            - button "Champagne Pearl" [ref=f15e26]
+            - button "Ice Blue" [active] [ref=f15e28]
+            - button "Sage Mint" [ref=f15e30]
+            - button "Lavender Mist" [ref=f15e32]
+            - button "Rose Quartz" [ref=f15e34]
+            - button "Periwinkle Dream" [ref=f15e36]
+            - button "Warm Ivory" [ref=f15e38]
+            - button "Sky Petal" [ref=f15e40]
+            - button "Cream Blush" [ref=f15e42]
+          - generic [ref=f15e45]:
+            - generic [ref=f15e46]:
+              - text: "Accent:"
+              - code [ref=f15e47]: "#a8c8e8"
+            - generic [ref=f15e48]:
+              - text: "Button:"
+              - code [ref=f15e49]: glass
+            - generic [ref=f15e50]:
+              - text: "Background:"
+              - code [ref=f15e51]: cool-gradient
+            - generic [ref=f15e52]:
+              - text: "Cards:"
+              - code [ref=f15e53]: frosted
+            - generic [ref=f15e54]:
+              - text: "Animation:"
+              - code [ref=f15e55]: subtle
+            - generic [ref=f15e56]:
+              - text: "Radius:"
+              - code [ref=f15e57]: 20px
+        - generic:
+          - generic: "3"
+          - generic: /
+          - generic: "10"
+        - navigation [ref=f15e58]:
+          - button "Cover" [ref=f15e59]
+          - button "Product" [ref=f15e62]
+          - button "Verdict" [ref=f15e65]
+        - generic [ref=f15e68]:
+          - generic [ref=f15e69]:
+            - heading "MacBook Pro 16\"" [level=1] [ref=f15e71]
+            - paragraph [ref=f15e72]: The most powerful MacBook ever, reimagined with the M4 chip.
+            - link "View Full Review" [ref=f15e74] [cursor=pointer]:
+              - /url: "#product-content"
+          - generic [ref=f15e78]: Scroll
+        - generic [ref=f15e83]:
+          - generic [ref=f15e84]:
+            - generic [ref=f15e85]:
+              - paragraph [ref=f15e86]: MacBook Pro 16"
+              - generic [ref=f15e87]:
+                - generic [ref=f15e88]: 4.8 ★
+                - generic [ref=f15e89]: ·
+                - generic [ref=f15e90]: 1,247 reviews
+            - generic [ref=f15e93]:
+              - generic [ref=f15e94]: $2,499
+              - generic [ref=f15e95]: $2,699
+              - generic [ref=f15e96]: Save 13%
+          - generic [ref=f15e97]:
+            - generic [ref=f15e98]:
+              - 'generic "Amazon: $2,349" [ref=f15e99]': A
+              - 'generic "Apple Store: $2,499" [ref=f15e100]': A
+              - 'generic "Best Buy: $2,499" [ref=f15e101]': B
+              - generic [ref=f15e102]: "+1"
+            - link "Buy Now $2,349" [ref=f15e104] [cursor=pointer]:
+              - /url: https://amazon.com
+              - text: Buy Now
+              - generic [ref=f15e109]: $2,349
+        - generic [ref=f15e110]:
+          - generic [ref=f15e111]:
+            - generic [ref=f15e113]:
+              - generic [ref=f15e114]: Page 2
+              - generic [ref=f15e115]: /
+              - generic [ref=f15e116]: "3"
+              - generic [ref=f15e118]: Product Information
+            - generic [ref=f15e122]:
+              - generic [ref=f15e127]:
+                - generic [ref=f15e128]: Apple Authorized
+                - generic [ref=f15e129]: Genuine product guarantee
+              - generic [ref=f15e136]:
+                - generic [ref=f15e137]: Free Shipping
+                - generic [ref=f15e138]: 2-3 business days
+              - generic [ref=f15e143]:
+                - generic [ref=f15e144]: 14-Day Returns
+                - generic [ref=f15e145]: No questions asked
+              - generic [ref=f15e149]:
+                - generic [ref=f15e150]: 24/7 Support
+                - generic [ref=f15e151]: Dedicated assistance
+            - generic [ref=f15e152]:
+              - navigation "Breadcrumb" [ref=f15e154]:
+                - list [ref=f15e155]:
+                  - listitem [ref=f15e156]:
+                    - link "Home" [ref=f15e157] [cursor=pointer]:
+                      - /url: /
+                  - listitem [ref=f15e160]:
+                    - link "Laptops" [ref=f15e161] [cursor=pointer]:
+                      - /url: /laptops
+                  - listitem [ref=f15e164]: MacBook Pro 16"
+              - generic [ref=f15e165]:
+                - generic [ref=f15e166]:
+                  - generic [ref=f15e167]:
+                    - generic [ref=f15e199]: "4.8"
+                    - generic [ref=f15e200]: (1,247)
+                  - generic [ref=f15e201]: 1 Year Warranty
+                  - generic [ref=f15e205]: Free Shipping
+                  - generic [ref=f15e210]: Editors’ Choice
+                - generic [ref=f15e215]:
+                  - generic [ref=f15e216]:
+                    - generic [ref=f15e217]: $2,499
+                    - generic [ref=f15e218]: $2,699
+                    - generic [ref=f15e219]: Save $200
+                  - generic [ref=f15e220]:
+                    - link [ref=f15e221] [cursor=pointer]:
+                      - /url: https://amazon.com
+                    - link "Read Buying Guide" [ref=f15e225] [cursor=pointer]:
+                      - /url: /guide/macbook-pro-16-m4
+              - generic [ref=f15e226]:
+                - generic [ref=f15e227]:
+                  - generic [ref=f15e228]: Color
+                  - generic [ref=f15e231]:
+                    - button "Space Black" [ref=f15e232]
+                    - button "Silver" [ref=f15e236]
+                - generic [ref=f15e239]:
+                  - generic [ref=f15e240]: Storage
+                  - generic [ref=f15e243]:
+                    - button "512GB" [ref=f15e244]
+                    - button "1TB +$200" [ref=f15e246]:
+                      - generic [ref=f15e247]: 1TB
+                      - generic [ref=f15e248]: +$200
+                    - button "2TB +$600" [ref=f15e249]:
+                      - generic [ref=f15e250]: 2TB
+                      - generic [ref=f15e251]: +$600
+                - generic [ref=f15e252]:
+                  - generic [ref=f15e253]: RAM
+                  - generic [ref=f15e256]:
+                    - button "36GB" [ref=f15e257]
+                    - button "48GB +$400" [ref=f15e259]:
+                      - generic [ref=f15e260]: 48GB
+                      - generic [ref=f15e261]: +$400
+            - generic [ref=f15e267]:
+              - generic [ref=f15e268]:
+                - generic [ref=f15e269]: Features
+                - heading "Everything You Need" [level=2] [ref=f15e270]
+                - paragraph [ref=f15e271]: The MacBook Pro 16" delivers on every front.
+              - generic [ref=f15e272]:
+                - generic [ref=f15e274]:
+                  - heading "M4 Pro Chip" [level=3] [ref=f15e276]
+                  - paragraph [ref=f15e277]: 14-core CPU, 20-core GPU, 16-core Neural Engine for blazing-fast performance.
+                - generic [ref=f15e279]:
+                  - heading "Liquid Retina XDR" [level=3] [ref=f15e281]
+                  - paragraph [ref=f15e282]: 16.2-inch display with 3456x2234 resolution, 1600 nits peak brightness, ProMotion 120Hz.
+                - generic [ref=f15e284]:
+                  - heading "Up to 22 Hours" [level=3] [ref=f15e286]
+                  - paragraph [ref=f15e287]: All-day battery life — the longest ever in a Mac.
+                - generic [ref=f15e289]:
+                  - heading "Thunderbolt 5" [level=3] [ref=f15e291]
+                  - paragraph [ref=f15e292]: Three Thunderbolt 5 ports with up to 120Gb/s data transfer.
+                - generic [ref=f15e294]:
+                  - heading "MagSafe 3" [level=3] [ref=f15e296]
+                  - paragraph [ref=f15e297]: MagSafe charging with fast-charge support via USB-C or MagSafe.
+                - generic [ref=f15e299]:
+                  - heading "36GB Unified Memory" [level=3] [ref=f15e301]
+                  - paragraph [ref=f15e302]: Massive bandwidth with up to 128GB unified memory support.
+            - generic [ref=f15e308]:
+              - generic [ref=f15e309]:
+                - generic [ref=f15e310]: Gallery
+                - heading "Designed to Impress" [level=2] [ref=f15e311]
+                - paragraph [ref=f15e312]: Every angle tells a story of precision engineering.
+              - generic [ref=f15e313]:
+                - generic [ref=f15e316]:
+                  - generic:
+                    - generic: MacBook Pro 16" Space Black front view
+                    - img "MacBook Pro 16\" Space Black front view"
+                - generic [ref=f15e320]:
+                  - button "MacBook Pro 16\" Space Black front view MacBook Pro 16\" Space Black front view" [ref=f15e321]:
+                    - generic:
+                      - generic: MacBook Pro 16" Space Black front view
+                      - img "MacBook Pro 16\" Space Black front view"
+                  - button "MacBook Pro 16\" angled view MacBook Pro 16\" angled view" [ref=f15e326]:
+                    - generic:
+                      - generic: MacBook Pro 16" angled view
+                      - img "MacBook Pro 16\" angled view"
+                  - button "MacBook Pro 16\" side view MacBook Pro 16\" side view" [ref=f15e330]:
+                    - generic:
+                      - generic: MacBook Pro 16" side view
+                      - img "MacBook Pro 16\" side view"
+                  - button "MacBook Pro 16\" display MacBook Pro 16\" display" [ref=f15e334]:
+                    - generic:
+                      - generic: MacBook Pro 16" display
+                      - img "MacBook Pro 16\" display"
+            - generic [ref=f15e343]:
+              - generic [ref=f15e344]:
+                - generic [ref=f15e345]: Video
+                - heading "See It in Action" [level=2] [ref=f15e346]
+                - paragraph [ref=f15e347]: Watch the full review.
+              - button "Watch MacBook Pro 16\" in action Watch review" [ref=f15e349]:
+                - generic [ref=f15e350]: Watch MacBook Pro 16" in action
+                - generic [ref=f15e356]: Watch review
+            - generic [ref=f15e362]:
+              - generic [ref=f15e363]:
+                - generic [ref=f15e364]: Specifications
+                - heading "Technical Specifications" [level=2] [ref=f15e365]
+                - paragraph [ref=f15e366]: Every detail, quantified.
+              - generic [ref=f15e367]:
+                - generic [ref=f15e369]:
+                  - generic [ref=f15e370]: Processor
+                  - generic [ref=f15e374]:
+                    - generic [ref=f15e375]:
+                      - generic [ref=f15e376]: Chip
+                      - generic [ref=f15e377]: Apple M4 Pro
+                    - generic [ref=f15e380]:
+                      - generic [ref=f15e381]: CPU
+                      - generic [ref=f15e382]: 14-core (10 performance + 4 efficiency)
+                    - generic [ref=f15e385]:
+                      - generic [ref=f15e386]: GPU
+                      - generic [ref=f15e387]: 20-core
+                    - generic [ref=f15e390]:
+                      - generic [ref=f15e391]: Neural Engine
+                      - generic [ref=f15e392]: 16-core
+                - generic [ref=f15e396]:
+                  - generic [ref=f15e397]: Display
+                  - generic [ref=f15e401]:
+                    - generic [ref=f15e402]:
+                      - generic [ref=f15e403]: Display Size
+                      - generic [ref=f15e404]: 16.2 inches
+                    - generic [ref=f15e407]:
+                      - generic [ref=f15e408]: Resolution
+                      - generic [ref=f15e409]: 3456 x 2234
+                    - generic [ref=f15e412]:
+                      - generic [ref=f15e413]: Brightness
+                      - generic [ref=f15e414]: 1600 nits peak (HDR)
+                    - generic [ref=f15e417]:
+                      - generic [ref=f15e418]: Refresh Rate
+                      - generic [ref=f15e419]: 120Hz ProMotion
+                - generic [ref=f15e423]:
+                  - generic [ref=f15e424]: Memory
+                  - generic [ref=f15e428]:
+                    - generic [ref=f15e429]:
+                      - generic [ref=f15e430]: Unified Memory
+                      - generic [ref=f15e431]: 36GB (configurable to 128GB)
+                    - generic [ref=f15e434]:
+                      - generic [ref=f15e435]: Memory Bandwidth
+                      - generic [ref=f15e436]: 400GB/s
+                - generic [ref=f15e440]:
+                  - generic [ref=f15e441]: Storage
+                  - generic [ref=f15e446]:
+                    - generic [ref=f15e447]: Storage
+                    - generic [ref=f15e448]: 512GB SSD (configurable to 8TB)
+                - generic [ref=f15e452]:
+                  - generic [ref=f15e453]: Battery
+                  - generic [ref=f15e457]:
+                    - generic [ref=f15e458]:
+                      - generic [ref=f15e459]: Battery Life
+                      - generic [ref=f15e460]: Up to 22 hours
+                    - generic [ref=f15e463]:
+                      - generic [ref=f15e464]: Battery Capacity
+                      - generic [ref=f15e465]: 100Wh
+                - generic [ref=f15e469]:
+                  - generic [ref=f15e470]: Connectivity
+                  - generic [ref=f15e474]:
+                    - generic [ref=f15e475]:
+                      - generic [ref=f15e476]: Ports
+                      - generic [ref=f15e477]: 3x Thunderbolt 5, HDMI, SDXC, MagSafe 3, 3.5mm
+                    - generic [ref=f15e480]:
+                      - generic [ref=f15e481]: Wi-Fi
+                      - generic [ref=f15e482]: Wi-Fi 6E (802.11ax)
+                    - generic [ref=f15e485]:
+                      - generic [ref=f15e486]: Bluetooth
+                      - generic [ref=f15e487]: "5.3"
+                - generic [ref=f15e491]:
+                  - generic [ref=f15e492]: Physical
+                  - generic [ref=f15e496]:
+                    - generic [ref=f15e497]:
+                      - generic [ref=f15e498]: Weight
+                      - generic [ref=f15e499]: 4.7 lbs (2.14 kg)
+                    - generic [ref=f15e502]:
+                      - generic [ref=f15e503]: Dimensions
+                      - generic [ref=f15e504]: 14.01 x 9.77 x 0.66 inches
+                    - generic [ref=f15e507]:
+                      - generic [ref=f15e508]: Color
+                      - generic [ref=f15e509]: Space Black, Silver
+                - generic [ref=f15e513]:
+                  - generic [ref=f15e514]: Hardware
+                  - generic [ref=f15e518]:
+                    - generic [ref=f15e519]:
+                      - generic [ref=f15e520]: Camera
+                      - generic [ref=f15e521]: 1080p FaceTime HD
+                    - generic [ref=f15e524]:
+                      - generic [ref=f15e525]: Audio
+                      - generic [ref=f15e526]: 6-speaker force-cancelling, Spatial Audio
+            - generic [ref=f15e534]:
+              - generic [ref=f15e535]:
+                - generic [ref=f15e536]: Pricing
+                - heading "Compare Merchants" [level=2] [ref=f15e537]
+                - paragraph [ref=f15e538]: Find the best deal on the MacBook Pro 16"
+              - paragraph [ref=f15e544]:
+                - text: Save up to
+                - generic [ref=f15e545]: 13%
+                - text: by choosing the right merchant
+              - generic [ref=f15e546]:
+                - link "Az Amazon Best Deal Best Price • Prime shipping • Easy returns • Price matches $2,349 $2,499" [ref=f15e548] [cursor=pointer]:
+                  - /url: https://amazon.com
+                  - generic [ref=f15e549]: Az
+                  - generic [ref=f15e550]:
+                    - generic [ref=f15e551]:
+                      - generic [ref=f15e552]: Amazon
+                      - generic [ref=f15e553]: Best Deal
+                      - generic [ref=f15e554]: Best Price
+                    - generic [ref=f15e555]:
+                      - generic [ref=f15e556]: • Prime shipping
+                      - generic [ref=f15e557]: • Easy returns
+                      - generic [ref=f15e558]: • Price matches
+                  - generic [ref=f15e561]:
+                    - generic [ref=f15e562]: $2,349
+                    - generic [ref=f15e563]: $2,499
+                - link "A Apple Store Official $2,499" [ref=f15e568] [cursor=pointer]:
+                  - /url: https://apple.com
+                  - generic [ref=f15e569]: A
+                  - generic [ref=f15e571]:
+                    - generic [ref=f15e572]: Apple Store
+                    - generic [ref=f15e573]: Official
+                  - generic [ref=f15e574]: $2,499
+                - link "BB Best Buy In Stock • In-store pickup • Geek Squad • Price match $2,499" [ref=f15e582] [cursor=pointer]:
+                  - /url: https://bestbuy.com
+                  - generic [ref=f15e583]: BB
+                  - generic [ref=f15e584]:
+                    - generic [ref=f15e585]:
+                      - generic [ref=f15e586]: Best Buy
+                      - generic [ref=f15e587]: In Stock
+                    - generic [ref=f15e588]:
+                      - generic [ref=f15e589]: • In-store pickup
+                      - generic [ref=f15e590]: • Geek Squad
+                      - generic [ref=f15e591]: • Price match
+                  - generic [ref=f15e592]: $2,499
+                - link "BH B&H Photo Backorder • No tax (NY) • Expert support • Trade-in Unavailable" [ref=f15e600] [cursor=pointer]:
+                  - /url: https://bhphoto.com
+                  - generic [ref=f15e601]: BH
+                  - generic [ref=f15e602]:
+                    - generic [ref=f15e603]:
+                      - generic [ref=f15e604]: B&H Photo
+                      - generic [ref=f15e605]: Backorder
+                    - generic [ref=f15e606]:
+                      - generic [ref=f15e607]: • No tax (NY)
+                      - generic [ref=f15e608]: • Expert support
+                      - generic [ref=f15e609]: • Trade-in
+                  - generic [ref=f15e610]: Unavailable
+            - link "MacBook Pro 16\" The most powerful MacBook ever, reimagined with the M4 chip. Buy from Apple Store Free shipping • No tax" [ref=f15e623] [cursor=pointer]:
+              - /url: https://apple.com
+              - heading "MacBook Pro 16\"" [level=2] [ref=f15e627]
+              - paragraph [ref=f15e628]: The most powerful MacBook ever, reimagined with the M4 chip.
+              - generic [ref=f15e629]: Buy from Apple Store
+              - paragraph [ref=f15e633]: Free shipping • No tax
+          - generic [ref=f15e638]:
+            - generic [ref=f15e640]:
+              - generic [ref=f15e641]: Page 3
+              - generic [ref=f15e642]: /
+              - generic [ref=f15e643]: "3"
+              - generic [ref=f15e645]: Verdict & Conclusion
+            - generic [ref=f15e648]:
+              - generic [ref=f15e649]:
+                - generic [ref=f15e650]: Final Verdict
+                - heading "Is the MacBook Pro 16\" Worth It?" [level=2] [ref=f15e654]
+                - paragraph [ref=f15e655]: Our honest take after thorough analysis.
+              - generic [ref=f15e656]:
+                - paragraph [ref=f15e658]: The MacBook Pro 16" with M4 Pro is the definitive laptop for professionals who need uncompromising performance. It leads in CPU performance, display quality, battery life, and build quality. While the price is steep and Windows alternatives offer certain advantages in GPU power and port options, the total package — performance, display, battery, and ecosystem — makes it the best professional laptop money can buy. If you're in the Apple ecosystem or do CPU-intensive creative work, this is an easy recommendation. Windows users should consider the Dell XPS 16 or a dedicated workstation.
+                - generic [ref=f15e659]:
+                  - generic [ref=f15e660]: Recommended
+                  - generic [ref=f15e664]: ·
+                  - generic [ref=f15e665]: Expert reviewed
+              - generic [ref=f15e666]:
+                - generic [ref=f15e667]:
+                  - generic [ref=f15e668]: Pros
+                  - list [ref=f15e672]:
+                    - listitem [ref=f15e673]: Industry-leading M4 Pro performance for pro workflows
+                    - listitem [ref=f15e675]: Stunning Liquid Retina XDR display with ProMotion
+                    - listitem [ref=f15e677]: Exceptional 22-hour battery life
+                    - listitem [ref=f15e679]: Premium build quality with Space Black finish
+                - generic [ref=f15e681]:
+                  - generic [ref=f15e682]: Cons
+                  - list [ref=f15e686]:
+                    - listitem [ref=f15e687]: Premium price point starting at $2,499
+                    - listitem [ref=f15e689]: Heavier than MacBook Air lineup
+                    - listitem [ref=f15e691]: Limited to two external displays (M4 Pro)
+                    - listitem [ref=f15e693]: No USB-A or HDMI 2.1 on base config
+            - generic [ref=f15e700]:
+              - generic [ref=f15e701]:
+                - generic [ref=f15e702]: Verdict
+                - heading "The Good & The Bad" [level=2] [ref=f15e703]
+                - paragraph [ref=f15e704]: An honest look at what works and what doesn't.
+              - generic [ref=f15e705]:
+                - generic [ref=f15e706]:
+                  - generic [ref=f15e711]:
+                    - heading "Pros" [level=3] [ref=f15e712]
+                    - paragraph [ref=f15e713]: 6 advantages
+                  - generic [ref=f15e714]:
+                    - generic [ref=f15e715]: Industry-leading M4 Pro performance for pro workflows
+                    - generic [ref=f15e720]: Stunning Liquid Retina XDR display with ProMotion
+                    - generic [ref=f15e725]: Exceptional 22-hour battery life
+                    - generic [ref=f15e730]: Premium build quality with Space Black finish
+                    - generic [ref=f15e735]: Thunderbolt 5 for extreme bandwidth
+                    - generic [ref=f15e740]: Quiet and cool even under sustained load
+                - generic [ref=f15e745]:
+                  - generic [ref=f15e750]:
+                    - heading "Cons" [level=3] [ref=f15e751]
+                    - paragraph [ref=f15e752]: 5 drawbacks
+                  - generic [ref=f15e753]:
+                    - generic [ref=f15e754]: Premium price point starting at $2,499
+                    - generic [ref=f15e760]: Heavier than MacBook Air lineup
+                    - generic [ref=f15e766]: Limited to two external displays (M4 Pro)
+                    - generic [ref=f15e772]: No USB-A or HDMI 2.1 on base config
+                    - generic [ref=f15e778]: Repairability still challenging
+            - generic [ref=f15e789]:
+              - generic [ref=f15e790]:
+                - generic [ref=f15e791]: Comparison
+                - heading "How It Stacks Up" [level=2] [ref=f15e792]
+                - paragraph [ref=f15e793]: MacBook Pro 16" vs Dell XPS 16 (2025)
+              - generic [ref=f15e795]:
+                - generic [ref=f15e796]:
+                  - generic [ref=f15e797]: Wins
+                  - generic [ref=f15e798]: "5"
+                  - generic [ref=f15e806]: MacBook Pro 16"
+                - generic [ref=f15e808]:
+                  - generic [ref=f15e809]: Wins
+                  - generic [ref=f15e810]: "3"
+                  - generic [ref=f15e818]: Dell XPS 16 (2025)
+              - generic [ref=f15e820]:
+                - generic [ref=f15e821]:
+                  - generic [ref=f15e822]: Feature
+                  - generic [ref=f15e823]: MacBook Pro 16"
+                  - generic [ref=f15e824]: Dell XPS 16 (2025)
+                - generic [ref=f15e825]:
+                  - generic [ref=f15e826]:
+                    - generic [ref=f15e827]: Processor
+                    - generic [ref=f15e828]: Winner
+                  - generic [ref=f15e837]:
+                    - generic [ref=f15e838]: GPU
+                    - generic [ref=f15e843]: Winner
+                  - generic [ref=f15e848]:
+                    - generic [ref=f15e849]: Display
+                    - generic [ref=f15e850]: Winner
+                  - generic [ref=f15e859]:
+                    - generic [ref=f15e860]: Peak Brightness
+                    - generic [ref=f15e861]: Winner
+                  - generic [ref=f15e870]:
+                    - generic [ref=f15e871]: RAM
+                    - generic [ref=f15e872]: Winner
+                  - generic [ref=f15e881]:
+                    - generic [ref=f15e882]: Battery Life
+                    - generic [ref=f15e883]: Winner
+                  - generic [ref=f15e892]:
+                    - generic [ref=f15e893]: Weight
+                    - generic [ref=f15e898]: Winner
+                  - generic [ref=f15e903]:
+                    - generic [ref=f15e904]: Ports
+                    - generic [ref=f15e909]: Winner
+              - paragraph [ref=f15e917]: MacBook Pro 16" wins 63% of categories
+            - generic [ref=f15e923]:
+              - generic [ref=f15e924]:
+                - generic [ref=f15e925]: Reviews
+                - heading "Real Reviews from Real Users" [level=2] [ref=f15e926]
+                - paragraph [ref=f15e927]: What 1,247 buyers are saying.
+              - generic [ref=f15e929]:
+                - generic [ref=f15e930]: "4.8"
+                - generic [ref=f15e945]:
+                  - generic [ref=f15e946]: "1247"
+                  - generic [ref=f15e947]: Reviews
+              - generic [ref=f15e950]:
+                - generic [ref=f15e954]:
+                  - generic [ref=f15e955]:
+                    - generic [ref=f15e956]: A
+                    - generic [ref=f15e957]: Alex Chen
+                  - heading "Absolute beast of a machine" [level=4] [ref=f15e974]
+                  - paragraph [ref=f15e975]: Upgraded from Intel MacBook Pro and the difference is night and day. Compilation times dropped by 60%. The display is stunning and battery life means I rarely think about charging. Worth every penny for professional work.
+                  - generic [ref=f15e976]: 2025-12-15
+                - generic [ref=f15e977]:
+                  - generic [ref=f15e978]:
+                    - button [ref=f15e979]
+                    - button [ref=f15e980]
+                    - button [ref=f15e981]
+                    - button [ref=f15e982]
+                  - generic [ref=f15e983]:
+                    - button [ref=f15e984]
+                    - button [ref=f15e987]
+              - generic [ref=f15e990]:
+                - generic [ref=f15e992]:
+                  - generic [ref=f15e993]:
+                    - generic [ref=f15e994]: A
+                    - generic [ref=f15e995]: Alex Chen
+                  - paragraph [ref=f15e1012]: Upgraded from Intel MacBook Pro and the difference is night and day. Compilation times dropped by 60%. The display is stunning and battery life means I rarely think about charging. Worth every penny for professional work.
+                - generic [ref=f15e1014]:
+                  - generic [ref=f15e1015]:
+                    - generic [ref=f15e1016]: S
+                    - generic [ref=f15e1017]: Sarah Mitchell
+                  - paragraph [ref=f15e1034]: I edit 4K and 8K footage daily. This MacBook chews through ProRes like it's nothing. The XDR display is color-accurate enough for professional grading. Fans rarely spin up even on heavy exports.
+                - generic [ref=f15e1036]:
+                  - generic [ref=f15e1037]:
+                    - generic [ref=f15e1038]: J
+                    - generic [ref=f15e1039]: James Wilson
+                  - paragraph [ref=f15e1056]: Performance is unmatched and build quality is typical Apple excellence. The only reason for 4 stars is the price — it's a serious investment. But if you need the power, nothing else comes close.
+                - generic [ref=f15e1058]:
+                  - generic [ref=f15e1059]:
+                    - generic [ref=f15e1060]: P
+                    - generic [ref=f15e1061]: Priya Patel
+                  - paragraph [ref=f15e1075]: Running Docker, multiple IDEs, browsers with dozens of tabs, and local dev servers simultaneously — it doesn't break a sweat. 36GB RAM is the sweet spot for development work.
+            - generic [ref=f15e1081]:
+              - generic [ref=f15e1082]:
+                - generic [ref=f15e1083]: FAQ
+                - heading "Frequently Asked Questions" [level=2] [ref=f15e1084]
+                - paragraph [ref=f15e1085]: Everything you need to know.
+              - generic [ref=f15e1087]:
+                - generic [ref=f15e1089]:
+                  - button [ref=f15e1090]
+                  - paragraph [ref=f15e1099]: If you're on M1 Max or M2 Max, the performance gains are significant but not essential. For M1 or Intel users, the upgrade is transformative — expect 2-3x performance improvements across CPU, GPU, and neural engine tasks.
+                - button [ref=f15e1102]
+                - button [ref=f15e1112]
+                - button [ref=f15e1122]
+                - button [ref=f15e1132]
+            - generic [ref=f15e1145]:
+              - generic [ref=f15e1146]:
+                - heading "Related Products" [level=2] [ref=f15e1147]
+                - paragraph [ref=f15e1148]: You might also like these.
+              - generic [ref=f15e1149]:
+                - link "Apple $1,299 MacBook Air 15\" 4.6 (2,843) Read Review" [ref=f15e1150] [cursor=pointer]:
+                  - /url: /review/macbook-air-15-m3
+                  - generic [ref=f15e1151]:
+                    - generic [ref=f15e1152]:
+                      - generic [ref=f15e1153]: Apple
+                      - generic [ref=f15e1154]: $1,299
+                    - paragraph [ref=f15e1155]: MacBook Air 15"
+                    - generic [ref=f15e1156]:
+                      - generic [ref=f15e1188]: "4.6"
+                      - generic [ref=f15e1189]: (2,843)
+                    - generic [ref=f15e1190]: Read Review
+                - link "Dell $2,199 Dell XPS 16 (2025) 4.3 (892) Read Review" [ref=f15e1193] [cursor=pointer]:
+                  - /url: /review/dell-xps-16-2025
+                  - generic [ref=f15e1194]:
+                    - generic [ref=f15e1195]:
+                      - generic [ref=f15e1196]: Dell
+                      - generic [ref=f15e1197]: $2,199
+                    - paragraph [ref=f15e1198]: Dell XPS 16 (2025)
+                    - generic [ref=f15e1199]:
+                      - generic [ref=f15e1231]: "4.3"
+                      - generic [ref=f15e1232]: (892)
+                    - generic [ref=f15e1233]: Read Review
+                - link "Apple $1,299 iPad Pro 13\" M4 4.7 (1,894) Read Review" [ref=f15e1236] [cursor=pointer]:
+                  - /url: /review/ipad-pro-13-m4
+                  - generic [ref=f15e1237]:
+                    - generic [ref=f15e1238]:
+                      - generic [ref=f15e1239]: Apple
+                      - generic [ref=f15e1240]: $1,299
+                    - paragraph [ref=f15e1241]: iPad Pro 13" M4
+                    - generic [ref=f15e1242]:
+                      - generic [ref=f15e1274]: "4.7"
+                      - generic [ref=f15e1275]: (1,894)
+                    - generic [ref=f15e1276]: Read Review
+                - link "Apple $1,199 iPhone 16 Pro Max 4.7 (5,231) Read Review" [ref=f15e1279] [cursor=pointer]:
+                  - /url: /review/iphone-16-pro-max
+                  - generic [ref=f15e1280]:
+                    - generic [ref=f15e1281]:
+                      - generic [ref=f15e1282]: Apple
+                      - generic [ref=f15e1283]: $1,199
+                    - paragraph [ref=f15e1284]: iPhone 16 Pro Max
+                    - generic [ref=f15e1285]:
+                      - generic [ref=f15e1317]: "4.7"
+                      - generic [ref=f15e1318]: (5,231)
+                    - generic [ref=f15e1319]: Read Review
+    - contentinfo [ref=f15e1322]:
+      - generic [ref=f15e1323]:
+        - generic [ref=f15e1324]:
+          - generic [ref=f15e1325]:
+            - generic [ref=f15e1326]: GeetAI
+            - paragraph [ref=f15e1329]: Premium product reviews and buying guides powered by expert analysis and real user feedback.
+          - generic [ref=f15e1330]:
+            - heading "Product" [level=4] [ref=f15e1331]
+            - list [ref=f15e1332]:
+              - listitem [ref=f15e1333]:
+                - link "Reviews" [ref=f15e1334] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=f15e1335]:
+                - link "Buying Guides" [ref=f15e1336] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=f15e1337]:
+                - link "Comparisons" [ref=f15e1338] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=f15e1339]:
+                - link "Categories" [ref=f15e1340] [cursor=pointer]:
+                  - /url: /
+          - generic [ref=f15e1341]:
+            - heading "Company" [level=4] [ref=f15e1342]
+            - list [ref=f15e1343]:
+              - listitem [ref=f15e1344]:
+                - link "About" [ref=f15e1345] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=f15e1346]:
+                - link "Blog" [ref=f15e1347] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=f15e1348]:
+                - link "Contact" [ref=f15e1349] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=f15e1350]:
+                - link "Privacy" [ref=f15e1351] [cursor=pointer]:
+                  - /url: /
+          - generic [ref=f15e1352]:
+            - heading "Support" [level=4] [ref=f15e1353]
+            - list [ref=f15e1354]:
+              - listitem [ref=f15e1355]:
+                - link "FAQ" [ref=f15e1356] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=f15e1357]:
+                - link "Terms" [ref=f15e1358] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=f15e1359]:
+                - link "Affiliates" [ref=f15e1360] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=f15e1361]:
+                - link "Sitemap" [ref=f15e1362] [cursor=pointer]:
+                  - /url: /
+        - generic [ref=f15e1363]: © 2026 GeetAI. All rights reserved.
+  - button "Open Next.js Dev Tools" [ref=f15e1369] [cursor=pointer]
+  - alert [ref=f15e1377]

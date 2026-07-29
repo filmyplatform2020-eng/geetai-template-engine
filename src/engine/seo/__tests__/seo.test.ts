@@ -43,7 +43,7 @@ describe("generateSEO", () => {
   it("generates OG tags", () => {
     const seo = generateSEO(mockProduct)
     expect(seo.ogTitle).toContain("Test Product")
-    expect(seo.ogImage).toBe("/test.jpg")
+    expect(seo.ogImage).toBe("https://geetai.com/test.jpg")
   })
 
   it("generates canonical URL", () => {

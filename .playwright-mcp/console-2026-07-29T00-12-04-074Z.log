@@ -1,0 +1,14 @@
+[     163ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[     171ms] [LOG] [Fast Refresh] done in 109ms @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[     240ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[     254ms] [LOG] [HMR] connected @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[     309ms] [WARNING] Image with src "/images/macbook-pro-front.jpg" is using quality "85" which is not configured in images.qualities [70, 70, 70, 70, 70, 70, 70, 70, 75]. Please update your config to [70, 70, 70, 70, 70, 70, 70, 70, 75, 85].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[     311ms] [WARNING] Image with src "/images/macbook-pro-angle.jpg" is using quality "85" which is not configured in images.qualities [70, 70, 70, 70, 70, 70, 70, 70, 75]. Please update your config to [70, 70, 70, 70, 70, 70, 70, 70, 75, 85].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[     311ms] [WARNING] Image with src "/images/macbook-pro-side.jpg" is using quality "85" which is not configured in images.qualities [70, 70, 70, 70, 70, 70, 70, 70, 75]. Please update your config to [70, 70, 70, 70, 70, 70, 70, 70, 75, 85].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[     312ms] [WARNING] Image with src "/images/macbook-pro-display.jpg" is using quality "85" which is not configured in images.qualities [70, 70, 70, 70, 70, 70, 70, 70, 75]. Please update your config to [70, 70, 70, 70, 70, 70, 70, 70, 75, 85].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[     327ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ http://localhost:3001/_next/image?url=%2Fimages%2Fmacbook-pro-front.jpg&w=480&q=75:0
+[   13124ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ http://localhost:3001/_next/image?url=%2Fimages%2Fmacbook-pro-front.jpg&w=768&q=75:0

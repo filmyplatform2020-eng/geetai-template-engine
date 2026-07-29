@@ -58,7 +58,7 @@ export default function FloatingMacbook() {
       >
         <div className="relative mx-auto aspect-[1.55] w-full">
           <div
-            className="absolute inset-0 overflow-hidden rounded-[10px] border border-white/[0.08]"
+            className="absolute inset-0 overflow-hidden rounded-[10px] border border-default"
             style={{
               background:
                 "linear-gradient(135deg, rgba(15,15,25,0.95) 0%, rgba(20,18,35,0.98) 100%)",
@@ -82,7 +82,7 @@ export default function FloatingMacbook() {
 
               <div className="mb-2 flex items-center justify-center gap-2">
                 <div className="h-6 w-6 rounded-lg bg-gradient-to-br from-[#6c5ce7] to-[#a29bfe]" />
-                <span className="text-sm font-semibold tracking-tight text-white/90">
+                <span className="text-sm font-semibold tracking-tight text-primary">
                   GeetAI
                 </span>
               </div>
@@ -96,7 +96,7 @@ export default function FloatingMacbook() {
                 {[...Array(3)].map((_, i) => (
                   <div
                     key={i}
-                    className="rounded-lg border border-white/[0.04] bg-white/[0.02] p-2"
+                    className="rounded-lg border border-default bg-surface p-2"
                   >
                     <div className="mx-auto mb-1 h-4 w-4 rounded bg-gradient-to-br from-[#6c5ce7]/40 to-[#a29bfe]/40" />
                     <div className="h-1.5 w-2/3 rounded-full bg-white/[0.04] mx-auto" />
@@ -115,13 +115,13 @@ export default function FloatingMacbook() {
           </div>
 
           <div
-            className="absolute -bottom-[8%] left-[2%] right-[2%] h-[12%] overflow-hidden rounded-b-[12px] border border-white/[0.06] border-t-0"
+            className="absolute -bottom-[8%] left-[2%] right-[2%] h-[12%] overflow-hidden rounded-b-[12px] border border-default border-t-0"
             style={{
               background:
                 "linear-gradient(180deg, rgba(20,18,35,0.95) 0%, rgba(15,15,25,0.98) 100%)",
             }}
           >
-            <div className="mx-auto h-full w-[55%] border-x border-white/[0.04]" />
+            <div className="mx-auto h-full w-[55%] border-x border-default" />
           </div>
         </div>
 

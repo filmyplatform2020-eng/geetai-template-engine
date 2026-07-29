@@ -1,6 +1,6 @@
 "use client"
 
-import { createContext, useContext, useState, useCallback, useMemo, type ReactNode } from "react"
+import { createContext, useContext, useState, useCallback, useMemo, useEffect, type ReactNode } from "react"
 import type { Product } from "@/engine/product/types"
 import { searchProducts, type SearchResult } from "@/engine/search"
 
@@ -50,6 +50,17 @@ export function SearchProvider({
   const search = useCallback((q: string) => {
     setQuery(q)
     setActiveIndex(0)
+  }, [])
+
+  useEffect(() => {
+    const handle = (e: KeyboardEvent) => {
+      if ((e.metaKey || e.ctrlKey) && e.key === "k") {
+        e.preventDefault()
+        setIsOpen((prev) => !prev)
+      }
+    }
+    window.addEventListener("keydown", handle)
+    return () => window.removeEventListener("keydown", handle)
   }, [])
 
   return (

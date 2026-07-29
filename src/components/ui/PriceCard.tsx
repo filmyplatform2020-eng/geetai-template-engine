@@ -37,7 +37,7 @@ export default function PriceCard({
         "relative overflow-hidden rounded-2xl border p-6 sm:p-8",
         featured
           ? "border-[#6c5ce7]/30 bg-gradient-to-b from-[#6c5ce7]/[0.08] to-white/[0.02] shadow-xl shadow-[#6c5ce7]/10"
-          : "border-white/[0.06] bg-gradient-to-b from-white/[0.04] to-white/[0.02] backdrop-blur-xl",
+          : "border-default bg-gradient-to-b from-white/[0.04] to-white/[0.02] backdrop-blur-xl",
         className
       )}
       whileHover={{ y: -4 }}
@@ -51,15 +51,15 @@ export default function PriceCard({
         </div>
       )}
 
-      <h3 className="text-lg font-semibold text-white/90">{name}</h3>
-      <p className="mt-1 text-sm text-white/40">{description}</p>
+      <h3 className="text-lg font-semibold text-primary">{name}</h3>
+      <p className="mt-1 text-sm text-secondary">{description}</p>
 
       <div className="mt-4 flex items-baseline gap-2">
-        <span className="text-4xl font-bold tracking-tight text-white">
+        <span className="text-4xl font-bold tracking-tight text-primary">
           {price}
         </span>
         {originalPrice && (
-          <span className="text-lg text-white/30 line-through">
+          <span className="text-lg text-muted line-through">
             {originalPrice}
           </span>
         )}
@@ -71,12 +71,12 @@ export default function PriceCard({
             {f.included ? (
               <Check className="mt-0.5 h-4 w-4 shrink-0 text-green-400" />
             ) : (
-              <X className="mt-0.5 h-4 w-4 shrink-0 text-white/20" />
+              <X className="mt-0.5 h-4 w-4 shrink-0 text-muted" />
             )}
             <span
               className={cn(
                 "text-sm",
-                f.included ? "text-white/60" : "text-white/30"
+                f.included ? "text-secondary" : "text-muted"
               )}
             >
               {f.text}

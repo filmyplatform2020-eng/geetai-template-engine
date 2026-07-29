@@ -195,14 +195,13 @@ export default function GuidePageClient({ product }: Props) {
         <FAQ
           title="Still Have Questions?"
           subtitle="We've got answers."
-          items={product.faq}
+          faq={product.faq}
         />
 
         <CTA
-          title="Ready to Make Your Decision?"
-          description={`Read our full in-depth review of the ${product.product} with benchmarks, comparisons, and real user feedback.`}
-          buttonText={`Read the Full Review`}
-          buttonHref={`/review/${product.slug}`}
+          productName={product.product}
+          tagline={`Read our full in-depth review of the ${product.product} with benchmarks, comparisons, and real user feedback.`}
+          href={`/review/${product.slug}`}
         />
       </div>
     </>

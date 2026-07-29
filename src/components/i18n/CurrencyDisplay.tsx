@@ -20,7 +20,7 @@ export default function CurrencyDisplay({ priceUSD, region = "us", showTax = fal
     <span className={className}>
       {display.formatted}
       {showTax && display.tax > 0 && (
-        <span className="ml-1 text-xs text-white/30">
+        <span className="ml-1 text-xs text-muted">
           {display.tax > 0 ? `+${display.tax} tax` : ""}
         </span>
       )}

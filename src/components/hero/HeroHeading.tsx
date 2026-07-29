@@ -19,7 +19,7 @@ export default function HeroHeading({ product, variant = "default" }: HeroHeadin
         initial={{ opacity: 0, y: -10 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, ease: [0.25, 0.1, 0.25, 1] }}
-        className="mb-6 inline-flex items-center gap-2 rounded-full border border-white/[0.06] bg-white/[0.03] px-4 py-1.5 text-xs font-medium tracking-wide text-white/60 backdrop-blur-md"
+        className="mb-6 inline-flex items-center gap-2 rounded-full border border-default bg-white/[0.03] px-4 py-1.5 text-xs font-medium tracking-wide text-secondary backdrop-blur-md"
       >
         <Sparkles className="h-3 w-3 text-[#6c5ce7]" />
         {isDefault
@@ -35,7 +35,7 @@ export default function HeroHeading({ product, variant = "default" }: HeroHeadin
       >
         {isDefault ? (
           <>
-            <span className="text-white/90">Build Something</span>
+            <span className="text-primary">Build Something</span>
             <br />
             <span className="bg-gradient-to-r from-[#6c5ce7] via-[#a29bfe] to-[#6c5ce7] bg-clip-text text-transparent">
               Extraordinary
@@ -43,7 +43,7 @@ export default function HeroHeading({ product, variant = "default" }: HeroHeadin
           </>
         ) : (
           <>
-            <span className="text-white/90">{product?.tagline?.split(" ")[0] ?? "The"}</span>
+            <span className="text-primary">{product?.tagline?.split(" ")[0] ?? "The"}</span>
             <br />
             <span className="bg-gradient-to-r from-[#6c5ce7] via-[#a29bfe] to-[#6c5ce7] bg-clip-text text-transparent">
               {product?.tagline?.slice(product.tagline.indexOf(" "))?.trim() ?? "Ultimate Review"}
@@ -56,7 +56,7 @@ export default function HeroHeading({ product, variant = "default" }: HeroHeadin
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 0.2, ease: [0.25, 0.1, 0.25, 1] }}
-        className="mx-auto mb-10 max-w-2xl text-balance text-lg leading-relaxed text-white/40 sm:text-xl"
+        className="mx-auto mb-10 max-w-2xl text-balance text-lg leading-relaxed text-secondary sm:text-xl"
       >
         {isDefault
           ? "Ship production-ready apps at lightning speed with our premium template engine. Beautiful, scalable, and built for the modern web."

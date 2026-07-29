@@ -13,10 +13,10 @@ export const macbookPro: Product = {
   rating: 4.8,
   reviewCount: 1247,
   images: [
-    { src: "/images/macbook-pro-front.jpg", alt: "MacBook Pro 16\" Space Black front view" },
-    { src: "/images/macbook-pro-angle.jpg", alt: "MacBook Pro 16\" angled view" },
-    { src: "/images/macbook-pro-side.jpg", alt: "MacBook Pro 16\" side view" },
-    { src: "/images/macbook-pro-display.jpg", alt: "MacBook Pro 16\" display" },
+    { src: "/images/macbook-pro-front.svg", alt: "MacBook Pro 16\" Space Black front view" },
+    { src: "/images/macbook-pro-angle.svg", alt: "MacBook Pro 16\" angled view" },
+    { src: "/images/macbook-pro-side.svg", alt: "MacBook Pro 16\" side view" },
+    { src: "/images/macbook-pro-display.svg", alt: "MacBook Pro 16\" display" },
   ],
   features: [
     {

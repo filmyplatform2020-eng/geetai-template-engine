@@ -26,12 +26,12 @@ export default function RecommendedAccessories({ accessories }: RecommendedAcces
         {accessories.map((a, i) => (
           <Link key={i} href={`/review/${a.slug}`}>
             <Card className="flex items-center gap-4 p-4">
-              <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-white/5 text-lg">
-                {PLACEHOLDER_IMAGES[a.category] ?? <Package className="h-5 w-5 text-white/30" />}
+              <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-surface text-lg">
+                {PLACEHOLDER_IMAGES[a.category] ?? <Package className="h-5 w-5 text-muted" />}
               </div>
               <div className="min-w-0 flex-1">
-                <p className="truncate text-sm font-medium text-white/80">{a.name}</p>
-                <p className="text-xs text-white/30">{a.category} &middot; ${a.price}</p>
+                <p className="truncate text-sm font-medium text-primary">{a.name}</p>
+                <p className="text-xs text-muted">{a.category} &middot; ${a.price}</p>
               </div>
             </Card>
           </Link>

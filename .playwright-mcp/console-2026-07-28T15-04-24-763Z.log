@@ -1,0 +1,60 @@
+[     198ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[     210ms] [LOG] [HMR] connected @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[     298ms] [WARNING] Image with src "/images/macbook-pro-front.jpg" is using quality "85" which is not configured in images.qualities [75]. Please update your config to [75, 85].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[     300ms] [WARNING] Image with src "/images/macbook-pro-angle.jpg" is using quality "85" which is not configured in images.qualities [75]. Please update your config to [75, 85].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[     301ms] [WARNING] Image with src "/images/macbook-pro-side.jpg" is using quality "85" which is not configured in images.qualities [75]. Please update your config to [75, 85].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[     301ms] [WARNING] Image with src "/images/macbook-pro-display.jpg" is using quality "85" which is not configured in images.qualities [75]. Please update your config to [75, 85].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[   20453ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[   21075ms] [LOG] [Fast Refresh] done in 724ms @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[   43498ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[   43498ms] [LOG] [Fast Refresh] done in 102ms @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[  979812ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[  979859ms] [LOG] [Fast Refresh] done in 149ms @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[ 4554543ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[ 4554608ms] [LOG] [Fast Refresh] done in 167ms @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[ 4844430ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[ 4845383ms] [LOG] [Fast Refresh] done in 1002ms @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[ 4879254ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[ 4879392ms] [LOG] [Fast Refresh] done in 128ms @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[ 4888160ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[ 4888299ms] [LOG] [Fast Refresh] done in 104ms @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[ 4901170ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[ 4901213ms] [LOG] [Fast Refresh] done in 97ms @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[ 4908724ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[ 4908865ms] [LOG] [Fast Refresh] done in 98ms @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[ 4917740ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[ 4917778ms] [LOG] [Fast Refresh] done in 83ms @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[ 4926416ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[ 4926459ms] [LOG] [Fast Refresh] done in 80ms @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[ 4937134ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[ 4937182ms] [LOG] [Fast Refresh] done in 85ms @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[ 4946681ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[ 4946749ms] [LOG] [Fast Refresh] done in 53ms @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[ 4952717ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[ 4952910ms] [LOG] [Fast Refresh] done in 104ms @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[ 4960359ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[ 4960426ms] [LOG] [Fast Refresh] done in 52ms @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[ 4964977ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[ 4965040ms] [LOG] [Fast Refresh] done in 51ms @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[ 4975079ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[ 4975250ms] [LOG] [Fast Refresh] done in 148ms @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[ 4975359ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[ 4975359ms] [LOG] [Fast Refresh] done in 103ms @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[ 4986991ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[ 4987028ms] [LOG] [Fast Refresh] done in 78ms @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[ 4999098ms] [ERROR] WebSocket connection to 'ws://localhost:3001/_next/webpack-hmr?id=ZJqytnydVHnPIPwEyEHZ3' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3001/_next/static/chunks/0lc__next_dist_client_1mhgna2._.js:13422
+[ 5000352ms] [LOG] [HMR] connected @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[ 5000962ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[ 5000976ms] [LOG] [HMR] connected @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[ 5001036ms] [WARNING] Image with src "/images/macbook-pro-front.jpg" is using quality "85" which is not configured in images.qualities [75]. Please update your config to [75, 85].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[ 5001038ms] [WARNING] Image with src "/images/macbook-pro-angle.jpg" is using quality "85" which is not configured in images.qualities [75]. Please update your config to [75, 85].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[ 5001039ms] [WARNING] Image with src "/images/macbook-pro-side.jpg" is using quality "85" which is not configured in images.qualities [75]. Please update your config to [75, 85].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489
+[ 5001039ms] [WARNING] Image with src "/images/macbook-pro-display.jpg" is using quality "85" which is not configured in images.qualities [75]. Please update your config to [75, 85].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities @ http://localhost:3001/_next/static/chunks/0lc__next_dist_13_tx_q._.js:2489

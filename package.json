@@ -12,18 +12,28 @@
     "test:run": "vitest run",
     "test:e2e": "playwright test",
     "test:e2e:ui": "playwright test --ui",
-    "new-product": "node scripts/new-product.mjs"
+    "new-product": "node scripts/new-product.mjs",
+    "ai-loop": "node scripts/ai-loop.mjs",
+    "ai-loop:50": "node scripts/ai-loop.mjs 50",
+    "ai-loop:100": "node scripts/ai-loop.mjs 100",
+    "publish": "npx tsx scripts/publish-product.mjs",
+    "publish:ai": "npx tsx scripts/publish-product.mjs",
+    "verify": "node scripts/verify.mjs"
   },
   "dependencies": {
+    "@google/generative-ai": "^0.24.1",
     "@studio-freight/lenis": "^1.0.42",
+    "cheerio": "^1.2.0",
     "clsx": "^2.1.1",
     "framer-motion": "^12.42.2",
     "gsap": "^3.15.0",
     "lucide-react": "^1.27.0",
     "next": "16.2.12",
+    "open-graph-scraper": "^6.12.0",
     "react": "19.2.4",
     "react-dom": "19.2.4",
     "react-icons": "^5.7.0",
+    "sharp": "^0.35.3",
     "tailwind-merge": "^3.6.0"
   },
   "devDependencies": {

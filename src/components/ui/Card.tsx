@@ -9,6 +9,9 @@ interface CardProps {
   hover?: boolean
   glass?: boolean
   gradient?: boolean
+  elevated?: boolean
+  intensity?: "sm" | "md" | "lg"
+  shimmer?: boolean
   onClick?: () => void
 }
 
@@ -18,21 +21,30 @@ export default function Card({
   hover = true,
   glass = true,
   gradient = false,
+  elevated = false,
+  intensity = "md",
+  shimmer = false,
   onClick,
 }: CardProps) {
+  const glassClass = {
+    sm: "glass-sm",
+    md: "glass",
+    lg: "glass-lg",
+  }[intensity]
+
   return (
     <motion.div
       className={cn(
-        "relative overflow-hidden rounded-2xl",
-        glass &&
-          "border border-white/[0.06] bg-gradient-to-b from-white/[0.04] to-white/[0.02] backdrop-blur-xl shadow-[0_8px_32px_rgba(0,0,0,0.12)]",
-        gradient &&
-          "before:absolute before:inset-0 before:-translate-x-full before:bg-gradient-to-r before:from-transparent before:via-white/[0.04] before:to-transparent before:animate-[shimmer_3s_infinite]",
-        hover && "transition-all duration-500",
+        "relative overflow-hidden rounded-2xl transition-all duration-500",
+        glass && glassClass,
+        glass && gradient && "glass-gradient",
+        elevated && !glass && "shadow-[0_8px_32px_rgba(0,0,0,0.12)]",
+        glass && hover && "glass-hover",
+        shimmer && "glass-shimmer",
         onClick && "cursor-pointer",
         className
       )}
-      whileHover={hover ? { y: -4, scale: 1.01 } : undefined}
+      whileHover={hover ? { y: -6, scale: 1.01, transition: { type: "spring", stiffness: 200, damping: 15 } } : undefined}
       whileTap={onClick ? { scale: 0.98 } : undefined}
       onClick={onClick}
     >

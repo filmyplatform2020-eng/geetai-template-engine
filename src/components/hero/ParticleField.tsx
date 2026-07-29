@@ -13,6 +13,20 @@ interface Particle {
   maxLife: number
 }
 
+function getAccentRgb(): string {
+  if (typeof document === "undefined") return "162,155,254"
+  const el = document.querySelector(".product-theme")
+  if (!el) return "162,155,254"
+  const color = getComputedStyle(el).getPropertyValue("--color-accent").trim()
+  if (!color) return "162,155,254"
+  const hex = color.replace("#", "")
+  const r = parseInt(hex.substring(0, 2), 16)
+  const g = parseInt(hex.substring(2, 4), 16)
+  const b = parseInt(hex.substring(4, 6), 16)
+  if (isNaN(r) || isNaN(g) || isNaN(b)) return "162,155,254"
+  return `${r},${g},${b}`
+}
+
 export default function ParticleField() {
   const canvasRef = useRef<HTMLCanvasElement>(null)
 
@@ -61,6 +75,8 @@ export default function ParticleField() {
       if (!ctx || !canvas) return
       ctx.clearRect(0, 0, canvas.width, canvas.height)
 
+      const rgb = getAccentRgb()
+
       for (let i = particles.length - 1; i >= 0; i--) {
         const p = particles[i]
         p.x += p.speedX
@@ -77,7 +93,7 @@ export default function ParticleField() {
 
         ctx.beginPath()
         ctx.arc(p.x, p.y, p.size, 0, Math.PI * 2)
-        ctx.fillStyle = `rgba(162, 155, 254, ${currentOpacity})`
+        ctx.fillStyle = `rgba(${rgb}, ${currentOpacity})`
         ctx.fill()
       }
 
@@ -90,7 +106,7 @@ export default function ParticleField() {
             ctx.beginPath()
             ctx.moveTo(particles[i].x, particles[i].y)
             ctx.lineTo(particles[j].x, particles[j].y)
-            ctx.strokeStyle = `rgba(162, 155, 254, ${0.06 * (1 - dist / 120)})`
+            ctx.strokeStyle = `rgba(${rgb}, ${0.06 * (1 - dist / 120)})`
             ctx.lineWidth = 0.5
             ctx.stroke()
           }

@@ -1,0 +1,150 @@
+{
+  "products": {
+    "airpods-pro-3": {
+      "slug": "airpods-pro-3",
+      "status": "published",
+      "createdAt": 1785214699024,
+      "updatedAt": 1785214699024,
+      "publishedAt": 1785214699024
+    },
+    "apple-studio-display-2": {
+      "slug": "apple-studio-display-2",
+      "status": "published",
+      "createdAt": 1785214699024,
+      "updatedAt": 1785214699024,
+      "publishedAt": 1785214699024
+    },
+    "apple-watch-ultra-3": {
+      "slug": "apple-watch-ultra-3",
+      "status": "published",
+      "createdAt": 1785214699024,
+      "updatedAt": 1785214699024,
+      "publishedAt": 1785214699024
+    },
+    "dell-xps-16-2025": {
+      "slug": "dell-xps-16-2025",
+      "status": "published",
+      "createdAt": 1785214699024,
+      "updatedAt": 1785214699024,
+      "publishedAt": 1785214699024
+    },
+    "dji-air-4": {
+      "slug": "dji-air-4",
+      "status": "published",
+      "createdAt": 1785214699024,
+      "updatedAt": 1785214699024,
+      "publishedAt": 1785214699024
+    },
+    "galaxy-s25-ultra": {
+      "slug": "galaxy-s25-ultra",
+      "status": "published",
+      "createdAt": 1785214699024,
+      "updatedAt": 1785214699024,
+      "publishedAt": 1785214699024
+    },
+    "google-pixel-9-pro": {
+      "slug": "google-pixel-9-pro",
+      "status": "published",
+      "createdAt": 1785214699024,
+      "updatedAt": 1785214699024,
+      "publishedAt": 1785214699024
+    },
+    "ipad-pro-13-m4": {
+      "slug": "ipad-pro-13-m4",
+      "status": "published",
+      "createdAt": 1785214699024,
+      "updatedAt": 1785214699024,
+      "publishedAt": 1785214699024
+    },
+    "iphone-16-pro-max": {
+      "slug": "iphone-16-pro-max",
+      "status": "published",
+      "createdAt": 1785214699024,
+      "updatedAt": 1785214699024,
+      "publishedAt": 1785214699024
+    },
+    "kindle-scribe-2": {
+      "slug": "kindle-scribe-2",
+      "status": "published",
+      "createdAt": 1785214699024,
+      "updatedAt": 1785214699024,
+      "publishedAt": 1785214699024
+    },
+    "logitech-mx-master-4": {
+      "slug": "logitech-mx-master-4",
+      "status": "published",
+      "createdAt": 1785214699024,
+      "updatedAt": 1785214699024,
+      "publishedAt": 1785214699024
+    },
+    "macbook-air-15-m3": {
+      "slug": "macbook-air-15-m3",
+      "status": "published",
+      "createdAt": 1785214699024,
+      "updatedAt": 1785214699024,
+      "publishedAt": 1785214699024
+    },
+    "macbook-pro": {
+      "slug": "macbook-pro",
+      "status": "published",
+      "createdAt": 1785214699024,
+      "updatedAt": 1785214699024,
+      "publishedAt": 1785214699024
+    },
+    "meta-quest-4": {
+      "slug": "meta-quest-4",
+      "status": "published",
+      "createdAt": 1785214699024,
+      "updatedAt": 1785214699024,
+      "publishedAt": 1785214699024
+    },
+    "nintendo-switch-2": {
+      "slug": "nintendo-switch-2",
+      "status": "published",
+      "createdAt": 1785214699024,
+      "updatedAt": 1785214699024,
+      "publishedAt": 1785214699024
+    },
+    "ps5-pro": {
+      "slug": "ps5-pro",
+      "status": "published",
+      "createdAt": 1785214699024,
+      "updatedAt": 1785214699024,
+      "publishedAt": 1785214699024
+    },
+    "samsung-qd-oled": {
+      "slug": "samsung-qd-oled",
+      "status": "published",
+      "createdAt": 1785214699024,
+      "updatedAt": 1785214699024,
+      "publishedAt": 1785214699024
+    },
+    "sonos-era-300": {
+      "slug": "sonos-era-300",
+      "status": "published",
+      "createdAt": 1785214699024,
+      "updatedAt": 1785214699024,
+      "publishedAt": 1785214699024
+    },
+    "sony-a7v": {
+      "slug": "sony-a7v",
+      "status": "published",
+      "createdAt": 1785214699024,
+      "updatedAt": 1785214699024,
+      "publishedAt": 1785214699024
+    },
+    "sony-wh-1000xm6": {
+      "slug": "sony-wh-1000xm6",
+      "status": "published",
+      "createdAt": 1785214699024,
+      "updatedAt": 1785214699024,
+      "publishedAt": 1785214699024
+    },
+    "simulated-ai-product": {
+      "slug": "simulated-ai-product",
+      "status": "review",
+      "createdAt": 1785215301354,
+      "updatedAt": 1785215348278
+    }
+  }
+}

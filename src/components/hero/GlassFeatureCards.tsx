@@ -33,10 +33,10 @@ export default function GlassFeatureCards() {
           <div className="mb-3 flex h-9 w-9 items-center justify-center rounded-lg bg-white/[0.04] ring-1 ring-white/[0.06]">
             <feature.icon className="h-4 w-4 text-[#a29bfe]" />
           </div>
-          <h3 className="mb-1.5 text-sm font-semibold text-white/80">
+          <h3 className="mb-1.5 text-sm font-semibold text-primary">
             {feature.title}
           </h3>
-          <p className="text-xs leading-relaxed text-white/35">
+          <p className="text-xs leading-relaxed text-secondary">
             {feature.description}
           </p>
         </GlassCard>

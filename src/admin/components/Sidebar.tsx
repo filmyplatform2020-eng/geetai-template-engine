@@ -2,12 +2,23 @@
 
 import { useState } from "react"
 import Link from "next/link"
-import { usePathname } from "next/navigation"
+import { usePathname, useRouter } from "next/navigation"
 import type { NavItem } from "@/admin/types"
+
+interface SidebarUser {
+  name: string
+  role: string
+  username: string
+}
+
+interface SidebarProps {
+  user: SidebarUser
+}
 
 const navItems: NavItem[] = [
   { label: "Dashboard", href: "/admin", icon: "⊞" },
   { label: "Products", href: "/admin/products", icon: "□" },
+  { label: "Review Queue", href: "/admin/review", icon: "◎" },
   { label: "Categories", href: "/admin/categories", icon: "⊟" },
   { label: "Brands", href: "/admin/brands", icon: "◎" },
   { label: "Templates", href: "/admin/templates", icon: "◇" },
@@ -19,9 +30,15 @@ const navItems: NavItem[] = [
   { label: "Build Status", href: "/admin/build-status", icon: "◉" },
 ]
 
-export default function Sidebar() {
+export default function Sidebar({ user }: SidebarProps) {
   const pathname = usePathname()
+  const router = useRouter()
   const [collapsed, setCollapsed] = useState(false)
+
+  async function handleLogout() {
+    await fetch("/api/auth/logout", { method: "POST" })
+    router.push("/login")
+  }
 
   return (
     <aside
@@ -62,12 +79,24 @@ export default function Sidebar() {
         })}
       </nav>
       <div className="border-t border-white/10 p-3">
+        {!collapsed && (
+          <div className="mb-2 px-3 text-xs text-white/30">
+            <span className="text-white/60">{user.name}</span>
+            <span className="ml-2 rounded bg-white/[0.04] px-1.5 py-0.5 text-[10px] text-white/30">{user.role}</span>
+          </div>
+        )}
         <Link
           href="/"
-          className="flex items-center gap-2 rounded-lg px-3 py-2 text-xs text-white/40 transition-colors hover:bg-white/5 hover:text-white/60"
+          className="mb-1 flex items-center gap-2 rounded-lg px-3 py-2 text-xs text-white/40 transition-colors hover:bg-white/5 hover:text-white/60"
         >
           ← Back to Site
         </Link>
+        <button
+          onClick={handleLogout}
+          className="flex w-full items-center gap-2 rounded-lg px-3 py-2 text-xs text-red-400/60 transition-colors hover:bg-red-500/5 hover:text-red-400"
+        >
+          {collapsed ? "↩" : "Sign Out"}
+        </button>
       </div>
     </aside>
   )

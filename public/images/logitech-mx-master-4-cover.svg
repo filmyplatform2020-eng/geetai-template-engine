@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e15"/>
+      <stop offset="50%" style="stop-color:#e8e8ee"/>
+      <stop offset="100%" style="stop-color:#1a1a2e08"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" style="stop-color:#1a1a2e;stop-opacity:0.12"/>
+      <stop offset="100%" style="stop-color:#1a1a2e;stop-opacity:0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#bg)"/>
+  <rect width="1920" height="1080" fill="url(#glow)"/>
+  <text x="960" y="500" text-anchor="middle" font-family="-apple-system, system-ui, sans-serif" font-size="48" font-weight="700" fill="#ffffff">Logitech Mx Master 4</text>
+  <text x="960" y="550" text-anchor="middle" font-family="-apple-system, system-ui, sans-serif" font-size="20" fill="#ffffff80">Hero Cover</text>
+  <rect x="880" y="580" width="160" height="2" rx="1" fill="#1a1a2e40"/>
+</svg>

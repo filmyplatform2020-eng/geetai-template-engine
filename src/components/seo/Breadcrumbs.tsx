@@ -9,9 +9,9 @@ interface BreadcrumbsProps {
 export default function Breadcrumbs({ product }: BreadcrumbsProps) {
   return (
     <nav aria-label="Breadcrumb" className="mb-6">
-      <ol className="flex items-center gap-1.5 text-xs text-white/30">
+      <ol className="flex items-center gap-1.5 text-xs text-muted">
         <li>
-          <Link href="/" className="transition-colors hover:text-white/50">
+          <Link href="/" className="transition-colors hover:text-secondary">
             Home
           </Link>
         </li>
@@ -19,13 +19,13 @@ export default function Breadcrumbs({ product }: BreadcrumbsProps) {
         <li>
           <Link
             href={`/${product.category}`}
-            className="transition-colors hover:text-white/50"
+            className="transition-colors hover:text-secondary"
           >
             {product.category.charAt(0).toUpperCase() + product.category.slice(1)}
           </Link>
         </li>
         <ChevronRight className="h-3 w-3" />
-        <li className="text-white/50 truncate max-w-[200px]">
+        <li className="text-secondary truncate max-w-[200px]">
           {product.product}
         </li>
       </ol>

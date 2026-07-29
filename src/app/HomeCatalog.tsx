@@ -29,7 +29,7 @@ export default function HomeCatalog({ products }: Props) {
             <Card className="flex h-full flex-col p-5 sm:p-6">
               <div className="mb-4 flex aspect-video items-center justify-center rounded-xl bg-white/[0.02] ring-1 ring-white/[0.06]">
                 <div className="text-center">
-                  <div className="mx-auto mb-2 h-10 w-10 rounded-lg bg-gradient-to-br from-[#6c5ce7]/30 to-[#a29bfe]/30" />
+                  <div className="mx-auto mb-2 h-10 w-10 rounded-lg bg-gradient-to-br from-[var(--color-accent)]/30 to-[var(--color-accent-light)]/30" />
                   <p className="text-xs text-white/20">{product.brand}</p>
                 </div>
               </div>

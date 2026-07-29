@@ -43,11 +43,11 @@ export default function RecentlyViewed({ allProducts, currentSlug }: RecentlyVie
         {items.map((p) => (
           <Link key={p.slug} href={`/review/${p.slug}`}>
             <Card className="flex items-center gap-4 p-4">
-              <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-white/5">
-                <Clock className="h-5 w-5 text-white/30" />
+              <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-surface">
+                <Clock className="h-5 w-5 text-muted" />
               </div>
               <div className="min-w-0 flex-1">
-                <p className="truncate text-sm font-medium text-white/80">{p.product}</p>
+                <p className="truncate text-sm font-medium text-primary">{p.product}</p>
                 <Rating value={p.rating} count={p.reviewCount} size="sm" />
               </div>
             </Card>

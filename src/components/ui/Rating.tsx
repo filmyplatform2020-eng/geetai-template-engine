@@ -27,25 +27,26 @@ export default function Rating({
         {stars.map((star) => {
           const fill = Math.min(Math.max(value - (star - 1), 0), 1)
           return (
-            <span key={star} className="relative">
-              <Star className={cn(sizes[size], "text-white/[0.08]")} />
-              <span
-                className="absolute inset-0 overflow-hidden"
-                style={{ width: `${fill * 100}%` }}
-              >
-                <Star
-                  className={cn(sizes[size], "fill-[#fbbf24] text-[#fbbf24]")}
-                />
+              <span key={star} className="relative">
+                <Star className={cn(sizes[size])} style={{ color: "var(--text-muted, rgba(0,0,0,0.12))" }} />
+                <span
+                  className="absolute inset-0 overflow-hidden"
+                  style={{ width: `${fill * 100}%` }}
+                >
+                  <Star
+                    className={cn(sizes[size])}
+                    style={{ fill: "var(--color-accent, #fbbf24)", color: "var(--color-accent, #fbbf24)" }}
+                  />
+                </span>
               </span>
-            </span>
           )
         })}
       </div>
-      <span className={cn("font-medium text-white/50", textSizes[size])}>
+      <span className={cn("font-medium text-secondary", textSizes[size])}>
         {value.toFixed(1)}
       </span>
       {showCount && count !== undefined && (
-        <span className={cn("text-white/30", textSizes[size])}>
+        <span className={cn("text-muted", textSizes[size])}>
           ({count.toLocaleString()})
         </span>
       )}

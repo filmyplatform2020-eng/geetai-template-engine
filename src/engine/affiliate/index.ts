@@ -41,3 +41,61 @@ export function hasCoupon(link: BuyLink): boolean {
 export function formatPrice(amount: number, currency = "$"): string {
   return `${currency}${amount.toLocaleString()}`
 }
+
+interface AffiliateRule {
+  domains: string[]
+  param: string
+  tags: Record<string, string>
+}
+
+const AFFILIATE_RULES: AffiliateRule[] = [
+  {
+    domains: ["amazon.in", "amazon.com", "amzn.in"],
+    param: "tag",
+    tags: { default: "geetai-21" },
+  },
+  {
+    domains: ["flipkart.com", "flipkart.in"],
+    param: "affid",
+    tags: { default: "geetai" },
+  },
+  {
+    domains: ["croma.com"],
+    param: "tag",
+    tags: { default: "geetai" },
+  },
+  {
+    domains: ["reliancedigital.in"],
+    param: "tag",
+    tags: { default: "geetai" },
+  },
+]
+
+export function appendAffiliateTag(url: string, storeName: string): string {
+  try {
+    const parsed = new URL(url)
+    const hostname = parsed.hostname.replace("www.", "")
+
+    for (const rule of AFFILIATE_RULES) {
+      if (rule.domains.some((d) => hostname === d || hostname.endsWith("." + d))) {
+        const tag = rule.tags[storeName.toLowerCase()] || rule.tags.default
+        if (parsed.searchParams.has(rule.param)) {
+          return url
+        }
+        parsed.searchParams.set(rule.param, tag)
+        return parsed.toString()
+      }
+    }
+
+    return url
+  } catch {
+    return url
+  }
+}
+
+export function applyAffiliateTags(links: BuyLink[]): BuyLink[] {
+  return links.map((link) => ({
+    ...link,
+    url: appendAffiliateTag(link.url, link.store),
+  })) as BuyLink[]
+}
