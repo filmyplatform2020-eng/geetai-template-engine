@@ -37,7 +37,7 @@ export interface ComparisonItem {
   feature: string
   this: string
   other: string
-  winner?: "this" | "other"
+  winner?: "this" | "other" | "draw"
 }
 
 export interface BuyLink {
