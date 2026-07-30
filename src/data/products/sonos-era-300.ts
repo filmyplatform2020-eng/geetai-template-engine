@@ -14,8 +14,8 @@ export const sonosEra300: Product = {
   images: [
     { src: "/images/sonos-era-300-front.svg", alt: "Sonos Era 300 front view" },
     { src: "/images/sonos-era-300-angle.svg", alt: "Sonos Era 300 angled view" },
-    { src: "/images/sonos-era-300-top.svg", alt: "Sonos Era 300 top controls" },
-    { src: "/images/sonos-era-300-back.svg", alt: "Sonos Era 300 rear ports" },
+    { src: "/images/sonos-era-300-side.svg", alt: "Sonos Era 300 top controls" },
+    { src: "/images/sonos-era-300-cover.svg", alt: "Sonos Era 300 rear ports" },
   ],
   features: [
     { title: "Six Drivers", description: "Dual tweeters, dual mid-woofers, and a dedicated upward-firing driver for spatial audio." },

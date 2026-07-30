@@ -12,10 +12,10 @@ export const appleStudioDisplay2: Product = {
   rating: 4.6,
   reviewCount: 634,
   images: [
-    { src: "/images/studio-display-2-front.svg", alt: "Apple Studio Display 2 front view" },
-    { src: "/images/studio-display-2-angle.svg", alt: "Apple Studio Display 2 angled view" },
-    { src: "/images/studio-display-2-back.svg", alt: "Apple Studio Display 2 rear ports" },
-    { src: "/images/studio-display-2-camera.svg", alt: "Apple Studio Display 2 48MP camera" },
+    { src: "/images/apple-studio-display-2-front.svg", alt: "Apple Studio Display 2 front view" },
+    { src: "/images/apple-studio-display-2-angle.svg", alt: "Apple Studio Display 2 angled view" },
+    { src: "/images/apple-studio-display-2-side.svg", alt: "Apple Studio Display 2 rear ports" },
+    { src: "/images/apple-studio-display-2-display.svg", alt: "Apple Studio Display 2 48MP camera" },
   ],
   features: [
     { title: "27\" 5K ProMotion", description: "5120x2880 resolution with 120Hz adaptive refresh rate for silky-smooth scrolling." },

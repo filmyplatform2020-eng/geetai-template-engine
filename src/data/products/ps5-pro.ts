@@ -14,8 +14,8 @@ export const ps5Pro: Product = {
   images: [
     { src: "/images/ps5-pro-front.svg", alt: "PlayStation 5 Pro console front" },
     { src: "/images/ps5-pro-angle.svg", alt: "PlayStation 5 Pro angled view" },
-    { src: "/images/ps5-pro-controller.svg", alt: "DualSense Edge controller" },
-    { src: "/images/ps5-pro-vertical.svg", alt: "PlayStation 5 Pro vertical stand" },
+    { src: "/images/ps5-pro-side.svg", alt: "DualSense Edge controller" },
+    { src: "/images/ps5-pro-cover.svg", alt: "PlayStation 5 Pro vertical stand" },
   ],
   features: [
     { title: "Custom RDNA 4 GPU", description: "45% faster rendering with 16.7 TFLOPS ray tracing power." },

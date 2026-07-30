@@ -45,3 +45,23 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 cruip-clone/
+
+# python
+__pycache__/
+*.pyc
+*.pyo
+
+# runtime / generated
+logs/
+temp/
+cache/
+*.log
+
+# secrets / config
+.env
+.env.local
+.env.production
+.env.*.local
+*.pem
+**/secrets/**
+**/keys/**

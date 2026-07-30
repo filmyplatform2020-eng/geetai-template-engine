@@ -14,8 +14,8 @@ export const samsungQDOLED: Product = {
   images: [
     { src: "/images/samsung-qd-oled-front.svg", alt: "Samsung Odyssey OLED G9 front view" },
     { src: "/images/samsung-qd-oled-angle.svg", alt: "Samsung Odyssey OLED G9 angled view" },
-    { src: "/images/samsung-qd-oled-back.svg", alt: "Samsung Odyssey OLED G9 rear ports" },
-    { src: "/images/samsung-qd-oled-screen.svg", alt: "Samsung Odyssey OLED G9 screen close-up" },
+    { src: "/images/samsung-qd-oled-side.svg", alt: "Samsung Odyssey OLED G9 rear ports" },
+    { src: "/images/samsung-qd-oled-display.svg", alt: "Samsung Odyssey OLED G9 screen close-up" },
   ],
   features: [
     { title: "49\" QD-OLED Panel", description: "Super-ultrawide 32:9 aspect ratio with 5120x1440 Dual QHD resolution." },

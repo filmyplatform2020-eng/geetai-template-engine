@@ -14,8 +14,8 @@ export const djiAir4: Product = {
   images: [
     { src: "/images/dji-air-4-front.svg", alt: "DJI Air 4 front view" },
     { src: "/images/dji-air-4-angle.svg", alt: "DJI Air 4 angled in flight" },
-    { src: "/images/dji-air-4-gimbal.svg", alt: "DJI Air 4 gimbal and camera" },
-    { src: "/images/dji-air-4-controller.svg", alt: "DJI Air 4 with RC 2 controller" },
+    { src: "/images/dji-air-4-side.svg", alt: "DJI Air 4 gimbal and camera" },
+    { src: "/images/dji-air-4-cover.svg", alt: "DJI Air 4 with RC 2 controller" },
   ],
   features: [
     { title: "1-inch 6K CMOS", description: "1-inch sensor recording 6K/60fps HDR video and 48MP stills with 10-bit color." },

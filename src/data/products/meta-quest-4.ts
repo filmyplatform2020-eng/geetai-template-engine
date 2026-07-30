@@ -12,10 +12,10 @@ export const metaQuest4: Product = {
   rating: 4.4,
   reviewCount: 2103,
   images: [
-    { src: "/images/quest-4-front.svg", alt: "Meta Quest 4 front view" },
-    { src: "/images/quest-4-angle.svg", alt: "Meta Quest 4 angled view" },
-    { src: "/images/quest-4-controllers.svg", alt: "Meta Quest 4 with Touch Plus controllers" },
-    { src: "/images/quest-4-passthrough.svg", alt: "Meta Quest 4 mixed reality passthrough" },
+    { src: "/images/meta-quest-4-front.svg", alt: "Meta Quest 4 front view" },
+    { src: "/images/meta-quest-4-angle.svg", alt: "Meta Quest 4 angled view" },
+    { src: "/images/meta-quest-4-side.svg", alt: "Meta Quest 4 with Touch Plus controllers" },
+    { src: "/images/meta-quest-4-cover.svg", alt: "Meta Quest 4 mixed reality passthrough" },
   ],
   features: [
     { title: "4K+ Per-Eye Resolution", description: "Dual 2160x2160 LCD panels with local dimming for stunning clarity." },

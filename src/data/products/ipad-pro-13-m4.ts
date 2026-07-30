@@ -12,10 +12,10 @@ export const ipadPro13: Product = {
   rating: 4.7,
   reviewCount: 1894,
   images: [
-    { src: "/images/ipad-pro-front.svg", alt: "iPad Pro 13\" M4 Silver front" },
-    { src: "/images/ipad-pro-angle.svg", alt: "iPad Pro 13\" with Pencil Pro" },
-    { src: "/images/ipad-pro-side.svg", alt: "iPad Pro 13\" side view" },
-    { src: "/images/ipad-pro-magic-keyboard.svg", alt: "iPad Pro 13\" with Magic Keyboard" },
+    { src: "/images/ipad-pro-13-m4-front.svg", alt: "iPad Pro 13\" M4 Silver front" },
+    { src: "/images/ipad-pro-13-m4-angle.svg", alt: "iPad Pro 13\" with Pencil Pro" },
+    { src: "/images/ipad-pro-13-m4-side.svg", alt: "iPad Pro 13\" side view" },
+    { src: "/images/ipad-pro-13-m4-display.svg", alt: "iPad Pro 13\" with Magic Keyboard" },
   ],
   features: [
     { title: "M4 Chip", description: "10-core CPU, 10-core GPU, 16-core Neural Engine for pro-level performance." },

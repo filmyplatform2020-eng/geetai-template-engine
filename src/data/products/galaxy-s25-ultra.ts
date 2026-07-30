@@ -13,7 +13,7 @@ export const galaxyS25Ultra: Product = {
   reviewCount: 3789,
   images: [
     { src: "/images/galaxy-s25-ultra-front.svg", alt: "Galaxy S25 Ultra Titanium Gray front" },
-    { src: "/images/galaxy-s25-ultra-back.svg", alt: "Galaxy S25 Ultra camera array" },
+    { src: "/images/galaxy-s25-ultra-angle.svg", alt: "Galaxy S25 Ultra camera array" },
     { src: "/images/galaxy-s25-ultra-side.svg", alt: "Galaxy S25 Ultra with S Pen" },
     { src: "/images/galaxy-s25-ultra-display.svg", alt: "Galaxy S25 Ultra display" },
   ],

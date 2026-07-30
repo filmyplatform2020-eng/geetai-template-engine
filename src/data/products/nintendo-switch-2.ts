@@ -11,10 +11,10 @@ export const nintendoSwitch2: Product = {
   rating: 4.5,
   reviewCount: 5123,
   images: [
-    { src: "/images/switch-2-front.svg", alt: "Nintendo Switch 2 front view" },
-    { src: "/images/switch-2-docked.svg", alt: "Nintendo Switch 2 in dock" },
-    { src: "/images/switch-2-joycon.svg", alt: "Nintendo Switch 2 magnetic Joy-Con" },
-    { src: "/images/switch-2-screen.svg", alt: "Nintendo Switch 2 8-inch display" },
+    { src: "/images/nintendo-switch-2-front.svg", alt: "Nintendo Switch 2 front view" },
+    { src: "/images/nintendo-switch-2-angle.svg", alt: "Nintendo Switch 2 in dock" },
+    { src: "/images/nintendo-switch-2-side.svg", alt: "Nintendo Switch 2 magnetic Joy-Con" },
+    { src: "/images/nintendo-switch-2-display.svg", alt: "Nintendo Switch 2 8-inch display" },
   ],
   features: [
     { title: "8\" 1080p HDR Display", description: "Bigger, brighter screen with HDR support for stunning handheld gaming." },

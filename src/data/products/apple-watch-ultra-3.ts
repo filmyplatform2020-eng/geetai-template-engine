@@ -12,10 +12,10 @@ export const appleWatchUltra3: Product = {
   rating: 4.8,
   reviewCount: 1245,
   images: [
-    { src: "/images/watch-ultra-front.svg", alt: "Apple Watch Ultra 3 Titanium face" },
-    { src: "/images/watch-ultra-angle.svg", alt: "Apple Watch Ultra 3 angled view" },
-    { src: "/images/watch-ultra-band.svg", alt: "Apple Watch Ultra 3 with Alpine Loop" },
-    { src: "/images/watch-ultra-back.svg", alt: "Apple Watch Ultra 3 sensor array" },
+    { src: "/images/apple-watch-ultra-3-front.svg", alt: "Apple Watch Ultra 3 Titanium face" },
+    { src: "/images/apple-watch-ultra-3-angle.svg", alt: "Apple Watch Ultra 3 angled view" },
+    { src: "/images/apple-watch-ultra-3-side.svg", alt: "Apple Watch Ultra 3 with Alpine Loop" },
+    { src: "/images/apple-watch-ultra-3-display.svg", alt: "Apple Watch Ultra 3 sensor array" },
   ],
   features: [
     { title: "S10 SiP", description: "Dual-core CPU, 4-core Neural Engine for fast performance and health processing." },

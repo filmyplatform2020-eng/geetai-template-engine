@@ -12,10 +12,10 @@ export const airpodsPro3: Product = {
   rating: 4.7,
   reviewCount: 3402,
   images: [
-    { src: "/images/airpods-pro-3-case.svg", alt: "AirPods Pro 3 with case" },
+    { src: "/images/airpods-pro-3-front.svg", alt: "AirPods Pro 3 with case" },
     { src: "/images/airpods-pro-3-angle.svg", alt: "AirPods Pro 3 angled view" },
-    { src: "/images/airpods-pro-3-ear.svg", alt: "AirPods Pro 3 in-ear" },
-    { src: "/images/airpods-pro-3-charging.svg", alt: "AirPods Pro 3 wireless charging" },
+    { src: "/images/airpods-pro-3-side.svg", alt: "AirPods Pro 3 in-ear" },
+    { src: "/images/airpods-pro-3-cover.svg", alt: "AirPods Pro 3 wireless charging" },
   ],
   features: [
     { title: "H3 Chip", description: "Next-generation chip with 2x faster adaptive processing and lossless audio support." },

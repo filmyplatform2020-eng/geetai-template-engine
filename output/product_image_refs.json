@@ -1,0 +1,202 @@
+{
+  "airpods-pro-3": {
+    "filename": "airpods-pro-3.ts",
+    "slug": "airpods-pro-3",
+    "refs": [
+      "/images/airpods-pro-3-case.svg",
+      "/images/airpods-pro-3-angle.svg",
+      "/images/airpods-pro-3-ear.svg",
+      "/images/airpods-pro-3-charging.svg"
+    ]
+  },
+  "apple-studio-display-2": {
+    "filename": "apple-studio-display-2.ts",
+    "slug": "apple-studio-display-2",
+    "refs": [
+      "/images/studio-display-2-front.svg",
+      "/images/studio-display-2-angle.svg",
+      "/images/studio-display-2-back.svg",
+      "/images/studio-display-2-camera.svg"
+    ]
+  },
+  "apple-watch-ultra-3": {
+    "filename": "apple-watch-ultra-3.ts",
+    "slug": "apple-watch-ultra-3",
+    "refs": [
+      "/images/watch-ultra-front.svg",
+      "/images/watch-ultra-angle.svg",
+      "/images/watch-ultra-band.svg",
+      "/images/watch-ultra-back.svg"
+    ]
+  },
+  "dell-xps-16-2025": {
+    "filename": "dell-xps-16-2025.ts",
+    "slug": "dell-xps-16-2025",
+    "refs": [
+      "/images/dell-xps-16-front.svg",
+      "/images/dell-xps-16-angle.svg",
+      "/images/dell-xps-16-side.svg",
+      "/images/dell-xps-16-keyboard.svg"
+    ]
+  },
+  "dji-air-4": {
+    "filename": "dji-air-4.ts",
+    "slug": "dji-air-4",
+    "refs": [
+      "/images/dji-air-4-front.svg",
+      "/images/dji-air-4-angle.svg",
+      "/images/dji-air-4-gimbal.svg",
+      "/images/dji-air-4-controller.svg"
+    ]
+  },
+  "galaxy-s25-ultra": {
+    "filename": "galaxy-s25-ultra.ts",
+    "slug": "galaxy-s25-ultra",
+    "refs": [
+      "/images/galaxy-s25-ultra-front.svg",
+      "/images/galaxy-s25-ultra-back.svg",
+      "/images/galaxy-s25-ultra-side.svg",
+      "/images/galaxy-s25-ultra-display.svg"
+    ]
+  },
+  "google-pixel-9-pro": {
+    "filename": "google-pixel-9-pro.ts",
+    "slug": "google-pixel-9-pro",
+    "refs": [
+      "/images/google-pixel-9-pro-front.svg",
+      "/images/google-pixel-9-pro-angle.svg",
+      "/images/google-pixel-9-pro-side.svg",
+      "/images/google-pixel-9-pro-display.svg"
+    ]
+  },
+  "ipad-pro-13-m4": {
+    "filename": "ipad-pro-13-m4.ts",
+    "slug": "ipad-pro-13-m4",
+    "refs": [
+      "/images/ipad-pro-front.svg",
+      "/images/ipad-pro-angle.svg",
+      "/images/ipad-pro-side.svg",
+      "/images/ipad-pro-magic-keyboard.svg"
+    ]
+  },
+  "iphone-16-pro-max": {
+    "filename": "iphone-16-pro-max.ts",
+    "slug": "iphone-16-pro-max",
+    "refs": [
+      "/images/iphone-16-pro-front.svg",
+      "/images/iphone-16-pro-back.svg",
+      "/images/iphone-16-pro-side.svg",
+      "/images/iphone-16-pro-camera.svg"
+    ]
+  },
+  "kindle-scribe-2": {
+    "filename": "kindle-scribe-2.ts",
+    "slug": "kindle-scribe-2",
+    "refs": [
+      "/images/kindle-scribe-2-front.svg",
+      "/images/kindle-scribe-2-writing.svg",
+      "/images/kindle-scribe-2-split.svg",
+      "/images/kindle-scribe-2-back.svg"
+    ]
+  },
+  "logitech-mx-master-4s": {
+    "filename": "logitech-mx-master-4.ts",
+    "slug": "logitech-mx-master-4s",
+    "refs": [
+      "/images/mx-master-4-angle.svg",
+      "/images/mx-master-4-side.svg",
+      "/images/mx-master-4-top.svg",
+      "/images/mx-master-4-charging.svg"
+    ]
+  },
+  "macbook-air-15-m3": {
+    "filename": "macbook-air-15-m3.ts",
+    "slug": "macbook-air-15-m3",
+    "refs": [
+      "/images/macbook-air-15-front.svg",
+      "/images/macbook-air-15-angle.svg",
+      "/images/macbook-air-15-side.svg",
+      "/images/macbook-air-15-display.svg"
+    ]
+  },
+  "macbook-pro-16-m4": {
+    "filename": "macbook-pro.ts",
+    "slug": "macbook-pro-16-m4",
+    "refs": [
+      "/images/macbook-pro-front.svg",
+      "/images/macbook-pro-angle.svg",
+      "/images/macbook-pro-side.svg",
+      "/images/macbook-pro-display.svg"
+    ]
+  },
+  "meta-quest-4": {
+    "filename": "meta-quest-4.ts",
+    "slug": "meta-quest-4",
+    "refs": [
+      "/images/quest-4-front.svg",
+      "/images/quest-4-angle.svg",
+      "/images/quest-4-controllers.svg",
+      "/images/quest-4-passthrough.svg"
+    ]
+  },
+  "nintendo-switch-2": {
+    "filename": "nintendo-switch-2.ts",
+    "slug": "nintendo-switch-2",
+    "refs": [
+      "/images/switch-2-front.svg",
+      "/images/switch-2-docked.svg",
+      "/images/switch-2-joycon.svg",
+      "/images/switch-2-screen.svg"
+    ]
+  },
+  "ps5-pro": {
+    "filename": "ps5-pro.ts",
+    "slug": "ps5-pro",
+    "refs": [
+      "/images/ps5-pro-front.svg",
+      "/images/ps5-pro-angle.svg",
+      "/images/ps5-pro-controller.svg",
+      "/images/ps5-pro-vertical.svg"
+    ]
+  },
+  "samsung-qd-oled-49": {
+    "filename": "samsung-qd-oled.ts",
+    "slug": "samsung-qd-oled-49",
+    "refs": [
+      "/images/samsung-qd-oled-front.svg",
+      "/images/samsung-qd-oled-angle.svg",
+      "/images/samsung-qd-oled-back.svg",
+      "/images/samsung-qd-oled-screen.svg"
+    ]
+  },
+  "sonos-era-300": {
+    "filename": "sonos-era-300.ts",
+    "slug": "sonos-era-300",
+    "refs": [
+      "/images/sonos-era-300-front.svg",
+      "/images/sonos-era-300-angle.svg",
+      "/images/sonos-era-300-top.svg",
+      "/images/sonos-era-300-back.svg"
+    ]
+  },
+  "sony-a7v": {
+    "filename": "sony-a7v.ts",
+    "slug": "sony-a7v",
+    "refs": [
+      "/images/sony-a7v-front.svg",
+      "/images/sony-a7v-top.svg",
+      "/images/sony-a7v-back.svg",
+      "/images/sony-a7v-lens.svg"
+    ]
+  },
+  "sony-wh-1000xm6": {
+    "filename": "sony-wh-1000xm6.ts",
+    "slug": "sony-wh-1000xm6",
+    "refs": [
+      "/images/sony-xm6-overview.svg",
+      "/images/sony-xm6-angle.svg",
+      "/images/sony-xm6-folded.svg",
+      "/images/sony-xm6-case.svg"
+    ]
+  }
+}

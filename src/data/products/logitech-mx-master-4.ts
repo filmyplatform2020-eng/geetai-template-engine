@@ -11,10 +11,10 @@ export const logitechMxMaster4: Product = {
   rating: 4.8,
   reviewCount: 4231,
   images: [
-    { src: "/images/mx-master-4-angle.svg", alt: "Logitech MX Master 4S angled view" },
-    { src: "/images/mx-master-4-side.svg", alt: "Logitech MX Master 4S side with thumb wheel" },
-    { src: "/images/mx-master-4-top.svg", alt: "Logitech MX Master 4S top view" },
-    { src: "/images/mx-master-4-charging.svg", alt: "Logitech MX Master 4S USB-C charging" },
+    { src: "/images/logitech-mx-master-4-front.svg", alt: "Logitech MX Master 4S angled view" },
+    { src: "/images/logitech-mx-master-4-angle.svg", alt: "Logitech MX Master 4S side with thumb wheel" },
+    { src: "/images/logitech-mx-master-4-side.svg", alt: "Logitech MX Master 4S top view" },
+    { src: "/images/logitech-mx-master-4-cover.svg", alt: "Logitech MX Master 4S USB-C charging" },
   ],
   features: [
     { title: "Haptic Scroll Wheel", description: "Electromagnetic haptic scroll with auto-shift between ratchet and free-spin modes." },

@@ -11,10 +11,10 @@ export const sonyWH1000XM6: Product = {
   rating: 4.7,
   reviewCount: 2156,
   images: [
-    { src: "/images/sony-xm6-overview.svg", alt: "Sony WH-1000XM6 Midnight Blue" },
-    { src: "/images/sony-xm6-angle.svg", alt: "Sony WH-1000XM6 angled view" },
-    { src: "/images/sony-xm6-folded.svg", alt: "Sony WH-1000XM6 folded" },
-    { src: "/images/sony-xm6-case.svg", alt: "Sony WH-1000XM6 carrying case" },
+    { src: "/images/sony-wh-1000xm6-front.svg", alt: "Sony WH-1000XM6 Midnight Blue" },
+    { src: "/images/sony-wh-1000xm6-angle.svg", alt: "Sony WH-1000XM6 angled view" },
+    { src: "/images/sony-wh-1000xm6-side.svg", alt: "Sony WH-1000XM6 folded" },
+    { src: "/images/sony-wh-1000xm6-cover.svg", alt: "Sony WH-1000XM6 carrying case" },
   ],
   features: [
     { title: "QN2e Processor", description: "Next-gen HD Noise Cancelling processor adapts to your environment in real-time." },

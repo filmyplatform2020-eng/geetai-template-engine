@@ -12,10 +12,10 @@ export const iphone16ProMax: Product = {
   rating: 4.7,
   reviewCount: 5231,
   images: [
-    { src: "/images/iphone-16-pro-front.svg", alt: "iPhone 16 Pro Max Natural Titanium front" },
-    { src: "/images/iphone-16-pro-back.svg", alt: "iPhone 16 Pro Max back camera" },
-    { src: "/images/iphone-16-pro-side.svg", alt: "iPhone 16 Pro Max side view" },
-    { src: "/images/iphone-16-pro-camera.svg", alt: "iPhone 16 Pro Max camera array" },
+    { src: "/images/iphone-16-pro-max-front.svg", alt: "iPhone 16 Pro Max Natural Titanium front" },
+    { src: "/images/iphone-16-pro-max-angle.svg", alt: "iPhone 16 Pro Max back camera" },
+    { src: "/images/iphone-16-pro-max-side.svg", alt: "iPhone 16 Pro Max side view" },
+    { src: "/images/iphone-16-pro-max-cover.svg", alt: "iPhone 16 Pro Max camera array" },
   ],
   features: [
     { title: "A18 Pro Chip", description: "3nm processor with 6-core CPU, 6-core GPU, and 16-core Neural Engine." },

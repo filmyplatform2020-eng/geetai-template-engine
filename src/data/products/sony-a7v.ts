@@ -12,9 +12,9 @@ export const sonyA7V: Product = {
   reviewCount: 567,
   images: [
     { src: "/images/sony-a7v-front.svg", alt: "Sony A7 V body front" },
-    { src: "/images/sony-a7v-top.svg", alt: "Sony A7 V top controls" },
-    { src: "/images/sony-a7v-back.svg", alt: "Sony A7 V rear display" },
-    { src: "/images/sony-a7v-lens.svg", alt: "Sony A7 V with 24-70mm GM II" },
+    { src: "/images/sony-a7v-angle.svg", alt: "Sony A7 V top controls" },
+    { src: "/images/sony-a7v-side.svg", alt: "Sony A7 V rear display" },
+    { src: "/images/sony-a7v-display.svg", alt: "Sony A7 V with 24-70mm GM II" },
   ],
   features: [
     { title: "50MP Full-Frame Sensor", description: "Stacked CMOS sensor with 15 stops dynamic range for stunning image quality." },

@@ -13,9 +13,9 @@ export const kindleScribe2: Product = {
   reviewCount: 987,
   images: [
     { src: "/images/kindle-scribe-2-front.svg", alt: "Kindle Scribe 2 front view" },
-    { src: "/images/kindle-scribe-2-writing.svg", alt: "Kindle Scribe 2 with pen writing" },
-    { src: "/images/kindle-scribe-2-split.svg", alt: "Kindle Scribe 2 split-screen reading" },
-    { src: "/images/kindle-scribe-2-back.svg", alt: "Kindle Scribe 2 thin profile" },
+    { src: "/images/kindle-scribe-2-angle.svg", alt: "Kindle Scribe 2 with pen writing" },
+    { src: "/images/kindle-scribe-2-side.svg", alt: "Kindle Scribe 2 split-screen reading" },
+    { src: "/images/kindle-scribe-2-display.svg", alt: "Kindle Scribe 2 thin profile" },
   ],
   features: [
     { title: "10.3\" E Ink Carta 1300", description: "300 PPI glare-free display with adjustable warm light and auto-brightness." },

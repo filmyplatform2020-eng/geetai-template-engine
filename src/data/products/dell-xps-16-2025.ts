@@ -12,10 +12,10 @@ export const dellXps16: Product = {
   rating: 4.3,
   reviewCount: 892,
   images: [
-    { src: "/images/dell-xps-16-front.svg", alt: "Dell XPS 16 Platinum Silver front view" },
-    { src: "/images/dell-xps-16-angle.svg", alt: "Dell XPS 16 angled view" },
-    { src: "/images/dell-xps-16-side.svg", alt: "Dell XPS 16 side view" },
-    { src: "/images/dell-xps-16-keyboard.svg", alt: "Dell XPS 16 keyboard" },
+    { src: "/images/dell-xps-16-2025-front.svg", alt: "Dell XPS 16 Platinum Silver front view" },
+    { src: "/images/dell-xps-16-2025-angle.svg", alt: "Dell XPS 16 angled view" },
+    { src: "/images/dell-xps-16-2025-side.svg", alt: "Dell XPS 16 side view" },
+    { src: "/images/dell-xps-16-2025-display.svg", alt: "Dell XPS 16 keyboard" },
   ],
   features: [
     { title: "Intel Core Ultra 9", description: "285H processor with 16 cores and Intel Arc integrated graphics." },

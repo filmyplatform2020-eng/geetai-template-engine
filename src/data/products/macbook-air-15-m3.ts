@@ -12,10 +12,10 @@ export const macbookAir15: Product = {
   rating: 4.6,
   reviewCount: 2843,
   images: [
-    { src: "/images/macbook-air-15-front.svg", alt: "MacBook Air 15\" Midnight front view" },
-    { src: "/images/macbook-air-15-angle.svg", alt: "MacBook Air 15\" angled view" },
-    { src: "/images/macbook-air-15-side.svg", alt: "MacBook Air 15\" side profile" },
-    { src: "/images/macbook-air-15-display.svg", alt: "MacBook Air 15\" display" },
+    { src: "/images/macbook-air-15-m3-front.svg", alt: "MacBook Air 15\" Midnight front view" },
+    { src: "/images/macbook-air-15-m3-angle.svg", alt: "MacBook Air 15\" angled view" },
+    { src: "/images/macbook-air-15-m3-side.svg", alt: "MacBook Air 15\" side profile" },
+    { src: "/images/macbook-air-15-m3-display.svg", alt: "MacBook Air 15\" display" },
   ],
   features: [
     { title: "M3 Chip", description: "8-core CPU, 10-core GPU, 16-core Neural Engine for smooth everyday performance." },
